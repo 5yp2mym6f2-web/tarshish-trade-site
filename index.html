@@ -1,0 +1,1001 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tarshish Trade · תרשיש</title>
+<meta name="description" content="Standards, customs and exclusive representation in Israel. Tarshish Trade brings international products onto Israeli shelves, compliant, certified and sold.">
+<link rel="canonical" href="https://tarshishtrade.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tarshishtrade.com/">
+<meta property="og:site_name" content="Tarshish Trade">
+<meta property="og:title" content="Tarshish Trade · תרשיש">
+<meta property="og:description" content="Standards, customs and exclusive representation in Israel. International products onto Israeli shelves, compliant, certified and sold.">
+<meta property="og:image" content="https://tarshishtrade.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#0E2240">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&family=Frank+Ruhl+Libre:wght@500;700&family=Heebo:wght@400;500;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0E2240; --gold:#C9A24B; --paper:#F5F1E8; --stone:#6B6B6B; --gold-text:#8A6A1F; --line:#E3DED3; --white:#FFFFFF; --text:#1A2436;
+  --display-he:'Frank Ruhl Libre', 'Times New Roman', serif;
+  --display-lat:'EB Garamond', Georgia, serif;
+  --body:Heebo, 'Noto Sans', Arial, sans-serif;
+  --max:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--text);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+html[lang=ru] body{font-family:'Noto Sans', Heebo, Arial, sans-serif}
+h1,h2,h3{margin:0;color:var(--ink);font-weight:600;line-height:1.15;letter-spacing:-0.005em}
+html[lang=he] h1,html[lang=he] h2,html[lang=he] h3,html[lang=he] .display{font-family:var(--display-he);font-weight:700}
+html:not([lang=he]) h1,html:not([lang=he]) h2,html:not([lang=he]) h3,html:not([lang=he]) .display{font-family:var(--display-lat)}
+p{margin:0}
+a{color:var(--ink)}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.kicker{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--stone)}
+html[lang=he] .kicker,html[lang=ru] .kicker{letter-spacing:.06em;text-transform:none;font-size:13px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 22px;border-radius:4px;font-weight:700;font-size:16px;text-decoration:none;cursor:pointer;border:1px solid var(--ink);font-family:var(--body);transition:background .15s,color .15s}
+.btn-primary{background:var(--ink);color:var(--paper)}
+.btn-primary:hover{background:#15325C}
+.btn-outline{background:transparent;color:var(--ink)}
+.btn-outline:hover{background:var(--white)}
+.rule{height:1px;background:var(--line)}
+.gold-rule{width:64px;height:3px;background:var(--gold)}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(245,241,232,.94);backdrop-filter:saturate(1.2) blur(8px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:28px;min-height:72px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.brand svg{width:38px;height:38px;flex:none}
+.wordmark{display:flex;flex-direction:column;line-height:1}
+.wm-en{font-family:var(--display-lat);font-weight:600;font-size:20px;letter-spacing:.12em}
+.wm-en small{display:block;font-size:10px;letter-spacing:.34em;margin-top:3px;color:var(--stone)}
+.wm-he{font-family:var(--display-he);font-weight:700;font-size:26px;display:none}
+html[lang=he] .wm-he{display:block}
+html[lang=he] .wm-en{display:none}
+.links{display:flex;gap:18px;align-items:center;margin-inline-start:auto;flex-wrap:wrap}
+.links a{text-decoration:none;font-weight:500;font-size:14.5px;color:var(--ink);padding:6px 0;border-bottom:2px solid transparent;white-space:nowrap}
+@media (max-width:1240px){.nav .cta-nav{display:none}}
+.links a:hover{border-bottom-color:var(--gold)}
+.lang{display:flex;gap:2px;border:1px solid var(--line);border-radius:4px;padding:2px;background:var(--white)}
+.lang button{border:0;background:transparent;font:inherit;font-weight:700;font-size:13px;padding:6px 9px;border-radius:3px;cursor:pointer;color:var(--stone);min-width:36px;min-height:34px}
+.lang button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.menu-btn{display:none;border:1px solid var(--line);background:var(--white);border-radius:4px;min-height:44px;min-width:44px;cursor:pointer;font:inherit;font-weight:700}
+@media (max-width:900px){
+  .links{display:none;width:100%;flex-direction:column;align-items:flex-start;gap:4px;padding:8px 0 14px}
+  .links.open{display:flex}
+  .menu-btn{display:inline-flex;align-items:center;justify-content:center;margin-inline-start:auto}
+  .nav .cta-nav{display:none}
+}
+
+/* hero */
+.hero{padding:72px 0 64px;position:relative;overflow:hidden}
+.blueprint{background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:48px 48px;background-position:center top}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(245,241,232,.2),var(--paper) 85%);pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:7fr 5fr;gap:56px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:700;color:var(--ink);border:1px solid var(--ink);padding:6px 12px;border-radius:999px;background:var(--white)}
+.badge i{width:8px;height:8px;border-radius:50%;background:var(--gold);display:inline-block}
+.hero h1{font-size:clamp(34px,4.6vw,56px);margin:22px 0 18px;white-space:pre-line}
+.hero .sub{font-size:19px;color:#3A4455;max-width:620px}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.file{background:var(--white);border:1px solid var(--line);border-radius:6px;box-shadow:0 18px 40px rgba(14,34,64,.10);padding:0;overflow:hidden}
+.file-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 20px;border-bottom:1px solid var(--line);background:#FBF9F4}
+.file-head strong{font-size:14px;color:var(--ink)}
+.file-head span{font-size:12px;color:var(--stone);font-weight:700}
+.file-row{display:grid;grid-template-columns:1fr auto;gap:12px;padding:16px 20px;border-bottom:1px solid var(--line);align-items:center}
+.file-row:last-of-type{border-bottom:0}
+.file-row .k{font-size:13px;color:var(--stone);margin-bottom:3px}
+.file-row .v{font-weight:700;color:var(--ink)}
+.status{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--ink);border:1px solid var(--line);padding:5px 10px;border-radius:999px;white-space:nowrap}
+.status i{width:8px;height:8px;border-radius:50%;background:var(--gold);display:inline-block}
+.status.ink i{background:var(--ink)}
+.file-foot{padding:12px 20px;font-size:12px;color:var(--stone);background:#FBF9F4;border-top:1px solid var(--line)}
+@media (max-width:900px){.hero{padding:48px 0 40px}.hero .wrap{grid-template-columns:1fr;gap:36px}}
+
+/* sections */
+section{padding:88px 0}
+.section-head{display:grid;grid-template-columns:1fr 2fr;gap:32px;align-items:end;margin-bottom:44px}
+.section-head h2{font-size:clamp(28px,3.4vw,40px)}
+.section-head p{color:#3A4455;font-size:18px}
+@media (max-width:900px){section{padding:64px 0}.section-head{grid-template-columns:1fr;gap:12px;margin-bottom:28px}}
+
+/* pillars, asymmetric */
+.pillars .grid{display:grid;grid-template-columns:7fr 5fr;gap:28px;align-items:stretch}
+.pillar{background:var(--white);border:1px solid var(--line);padding:36px;display:flex;flex-direction:column;gap:18px}
+.pillar h3{font-size:26px}
+.pillar ul{margin:6px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px}
+.pillar li{display:flex;gap:12px;align-items:flex-start;color:#2C3648}
+.pillar li::before{content:"";flex:none;width:10px;height:10px;margin-top:9px;border:2px solid var(--gold);border-radius:2px}
+.showcase{background:var(--ink);color:var(--paper);border:0;position:relative}
+.showcase h3,.showcase .kicker{color:var(--paper)}
+.showcase .kicker{color:var(--gold)}
+.showcase p{color:#D9D4C7}
+.showcase .brand-line{display:flex;align-items:center;gap:14px;margin-top:auto;padding-top:18px;border-top:1px solid rgba(245,241,232,.2)}
+.showcase .brand-line svg{width:44px;height:44px}
+.showcase .brand-name{font-size:22px;font-weight:700;color:var(--paper)}
+.showcase .brand-name small{display:block;font-size:13px;font-weight:400;color:#C9C3B4}
+@media (max-width:900px){.pillars .grid{grid-template-columns:1fr}}
+
+/* edge */
+.edge{background:var(--ink);color:var(--paper)}
+.edge .wrap{display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:start}
+.edge h2{color:var(--paper);font-size:clamp(28px,3.4vw,40px)}
+.edge p{color:#D9D4C7;font-size:19px}
+.edge .facts{display:flex;gap:32px;flex-wrap:wrap;margin-top:28px;padding-top:24px;border-top:1px solid rgba(245,241,232,.2)}
+.edge .fact{min-width:140px}
+.edge .fact b{display:block;font-size:14px;color:var(--gold);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+html[lang=he] .edge .fact b,html[lang=ru] .edge .fact b{text-transform:none;letter-spacing:0}
+.edge .fact span{color:var(--paper)}
+@media (max-width:900px){.edge .wrap{grid-template-columns:1fr;gap:20px}}
+
+/* process timeline */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:2px solid var(--ink);position:relative}
+.step{padding:28px 24px 0 0;border-inline-end:1px solid var(--line);position:relative}
+html[dir=rtl] .step{padding:28px 0 0 24px}
+.step:last-child{border-inline-end:0}
+.step .n{font-family:var(--display-lat);font-size:44px;color:var(--gold-text);line-height:1;margin-bottom:14px}
+.step h3{font-size:19px;margin-bottom:10px}
+.step p{color:#3A4455;font-size:15.5px}
+.step::before{content:"";position:absolute;top:-7px;inset-inline-start:0;width:12px;height:12px;background:var(--ink);border-radius:50%}
+@media (max-width:900px){.steps{grid-template-columns:1fr 1fr}.step{padding:24px 16px 24px 0;border-bottom:1px solid var(--line)}html[dir=rtl] .step{padding:24px 0 24px 16px}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}.step{border-inline-end:0}}
+
+/* founder */
+.founder h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:28px}
+.team{display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:start}
+.person-head{margin:0;display:flex;align-items:center;gap:20px}
+.person-card img{display:block;width:144px;height:144px;flex:none;border-radius:6px;border:1px solid var(--line);background:var(--white);object-fit:cover}
+.person-card.david{padding-top:4px}
+.founder .name{font-size:22px;font-weight:700;color:var(--ink)}
+.founder .role{color:var(--stone)}
+.person-card.michael{padding-top:4px}
+.founder p.bio{font-size:18px;color:#2C3648;margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+.proof{display:flex;flex-direction:column;gap:10px;margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+.proof div{display:flex;gap:12px;align-items:flex-start}
+.proof div::before{content:"";flex:none;width:18px;height:3px;background:var(--gold);margin-top:12px}
+@media (max-width:900px){.team{grid-template-columns:1fr;gap:24px}.person-card img{width:120px;height:120px}.person-card.michael{padding-top:20px;border-top:1px solid var(--line)}}
+/* lead */
+.lead{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.lead .wrap{display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:start}
+.lead h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:12px}
+.lead .sub{color:#3A4455;font-size:18px}
+.lead .how{margin-top:18px;font-size:14px;color:var(--stone)}
+.tabs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}
+.tab{border:1px solid var(--line);background:var(--paper);padding:14px 16px;border-radius:4px;cursor:pointer;font:inherit;font-weight:700;font-size:15px;color:var(--ink);text-align:start;min-height:56px}
+.tab[aria-pressed=true]{border-color:var(--ink);background:var(--ink);color:var(--paper)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field.full{grid-column:1/-1}
+label{font-size:13px;font-weight:700;color:var(--ink)}
+input,textarea{font:inherit;font-size:16px;padding:12px 14px;border:1px solid #CFC9BC;border-radius:4px;background:var(--white);color:var(--text);min-height:48px}
+textarea{min-height:110px;resize:vertical}
+input:focus,textarea:focus{outline:2px solid var(--gold);outline-offset:1px;border-color:var(--ink)}
+a:focus-visible,button:focus-visible,input[type=checkbox]:focus-visible{outline:3px solid var(--ink);outline-offset:2px;box-shadow:0 0 0 2px var(--paper)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+.skip{position:absolute;inset-inline-start:16px;top:-60px;z-index:100;background:var(--ink);color:var(--paper);padding:10px 14px;border-radius:4px;text-decoration:none;font-weight:700}
+.skip:focus{top:12px}
+.submit{grid-column:1/-1;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+@media (max-width:900px){.lead .wrap{grid-template-columns:1fr;gap:24px}.tabs,form{grid-template-columns:1fr}}
+
+/* footer */
+footer{padding:56px 0 32px;color:#3A4455}
+footer .cols{display:grid;grid-template-columns:5fr 3fr 4fr;gap:40px}
+footer h4{margin:0 0 12px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--stone)}
+html[lang=he] footer h4,html[lang=ru] footer h4{letter-spacing:0;text-transform:none}
+footer a{text-decoration:none}
+footer ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+footer .legal{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);font-size:13px;color:var(--stone);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media (max-width:900px){footer .cols{grid-template-columns:1fr;gap:28px}}
+
+/* checker */
+.checker{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.checker .wrap{display:grid;grid-template-columns:5fr 7fr;gap:48px;align-items:start}
+.checker h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:12px}
+.checker .sub{color:#3A4455;font-size:18px}
+.q{margin-bottom:22px}
+.q .kicker{display:block;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid #CFC9BC;background:var(--paper);color:var(--ink);font:inherit;font-size:15px;font-weight:500;padding:10px 14px;border-radius:999px;cursor:pointer;min-height:44px}
+.chip:hover{border-color:var(--ink)}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.result{margin-top:22px;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.result-head{padding:20px 24px;background:#FBF9F4;border-bottom:1px solid var(--line)}
+.result-head .kicker{display:block;margin-bottom:6px}
+.result-head h3{font-size:22px;margin-bottom:8px}
+.result-head p{color:#3A4455}
+.result-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.result-grid > div{padding:18px 24px;border-inline-end:1px solid var(--line)}
+.result-grid > div:last-child{border-inline-end:0}
+.result-grid b{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--stone);margin-bottom:8px}
+html[lang=he] .result-grid b,html[lang=ru] .result-grid b{letter-spacing:0;text-transform:none;font-size:13px}
+.result-grid span{color:#2C3648;font-size:15.5px}
+.result-foot{padding:16px 24px;border-top:1px solid var(--line);display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.result-foot .note{font-size:13px;color:var(--stone);flex:1 1 220px}
+.hint{font-size:14px;color:var(--stone);margin-top:10px}
+@media (max-width:900px){.checker .wrap{grid-template-columns:1fr;gap:24px}.result-grid{grid-template-columns:1fr}.result-grid > div{border-inline-end:0;border-bottom:1px solid var(--line)}.result-grid > div:last-child{border-bottom:0}}
+
+/* timeline details */
+.step .more{margin-top:12px;border:0;background:transparent;color:var(--ink);font:inherit;font-size:14px;font-weight:700;padding:8px 0;cursor:pointer;border-bottom:2px solid var(--gold);min-height:44px}
+.step .detail{margin-top:10px;display:flex;flex-direction:column;gap:8px;font-size:14.5px;color:#2C3648}
+.step .detail b{display:block;font-size:12px;color:var(--stone);margin-bottom:2px}
+html[lang=en] .step .detail b,html[lang=it] .step .detail b{letter-spacing:.08em;text-transform:uppercase}
+
+/* sticky WhatsApp, phones only */
+.wa-float{display:none}
+@media (max-width:900px){
+  .wa-float{position:fixed;bottom:16px;inset-inline-end:16px;z-index:72;display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--paper);text-decoration:none;font-weight:700;font-size:15px;padding:12px 16px;border-radius:999px;box-shadow:0 10px 28px rgba(14,34,64,.28);min-height:48px}
+  .wa-float svg{width:22px;height:22px}
+}
+
+/* legal dialogs */
+.legal-modal{position:fixed;inset:0;z-index:90;background:rgba(14,34,64,.55);display:flex;align-items:flex-start;justify-content:center;padding:40px 16px;overflow:auto}
+.legal-modal[hidden]{display:none}
+.legal-box{background:var(--paper);color:var(--text);max-width:820px;width:100%;border-radius:8px;border:1px solid var(--line);padding:36px 40px 44px;box-shadow:0 24px 60px rgba(14,34,64,.35);position:relative}
+.legal-box h3{font-size:30px;margin-bottom:18px}
+.legal-box h4{margin:24px 0 8px;font-size:17px;color:var(--ink);font-family:var(--body);font-weight:700}
+.legal-box p,.legal-box li{color:#2C3648;font-size:16px;line-height:1.65}
+.legal-box ul{margin:6px 0 0;padding-inline-start:22px}
+.legal-close{position:absolute;top:16px;inset-inline-end:16px;border:1px solid var(--line);background:var(--white);border-radius:4px;min-width:44px;min-height:44px;cursor:pointer;font:inherit;font-weight:700;color:var(--ink)}
+.legal-nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.legal-nav a{font-size:14px;font-weight:700;text-decoration:none;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:var(--white);min-height:40px;display:inline-flex;align-items:center}
+.legal-nav a[aria-current=page]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+body.modal-open{overflow:hidden}
+@media (max-width:900px){.legal-modal{padding:12px}.legal-box{padding:28px 20px 36px}.legal-box h3{font-size:26px}}
+
+/* accessibility widget: opposite corner to WhatsApp */
+.a11y-btn{position:fixed;bottom:16px;inset-inline-start:16px;z-index:70;width:52px;height:52px;border-radius:50%;background:var(--ink);color:var(--paper);border:2px solid var(--paper);box-shadow:0 10px 28px rgba(14,34,64,.28);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+.a11y-btn svg{width:28px;height:28px}
+.a11y-panel{position:fixed;bottom:80px;inset-inline-start:16px;z-index:71;width:300px;max-width:calc(100vw - 32px);background:var(--white);border:1px solid var(--line);border-radius:8px;box-shadow:0 18px 40px rgba(14,34,64,.25);padding:16px}
+.a11y-panel[hidden]{display:none}
+.a11y-panel h3{font-size:16px;font-family:var(--body);font-weight:700;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+.a11y-panel .x{border:1px solid var(--line);background:var(--paper);border-radius:4px;min-width:40px;min-height:40px;cursor:pointer;font:inherit;font-weight:700}
+.a11y-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.a11y-grid button,.a11y-grid a{border:1px solid var(--line);background:var(--paper);color:var(--ink);font:inherit;font-size:14px;font-weight:700;padding:10px 10px;border-radius:6px;cursor:pointer;min-height:44px;text-align:start;text-decoration:none;display:flex;align-items:center;gap:8px}
+.a11y-grid button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.a11y-grid .wide{grid-column:1/-1}
+.a11y-grid .reset{background:var(--white)}
+/* adjustments */
+html.a11y-contrast,html.a11y-contrast body{background:#000!important;color:#fff!important}
+html.a11y-contrast :where(*:not(img):not(svg):not(path):not(rect):not(circle)){background-color:#000!important;color:#fff!important;border-color:#fff!important;box-shadow:none!important}
+html.a11y-contrast a,html.a11y-contrast button{color:#ffff00!important;text-decoration:underline}
+html.a11y-contrast .btn-primary,html.a11y-contrast .chip[aria-pressed=true],html.a11y-contrast .tab[aria-pressed=true],html.a11y-contrast .lang button[aria-pressed=true]{background-color:#ffff00!important;color:#000!important}
+html.a11y-contrast svg:not(.keep){filter:invert(1) grayscale(1) contrast(1.4)}
+html.a11y-contrast .wa-float,html.a11y-contrast .a11y-btn{border:2px solid #fff!important}
+html.a11y-contrast .blueprint{background-image:none!important}
+html.a11y-contrast .hero::before{display:none!important}
+html.a11y-gray{filter:grayscale(1)}
+html.a11y-links a,html.a11y-links button{text-decoration:underline!important;outline:2px solid var(--gold);outline-offset:2px}
+html.a11y-font,html.a11y-font body,html.a11y-font h1,html.a11y-font h2,html.a11y-font h3,html.a11y-font .display,html.a11y-font .wm-en,html.a11y-font .wm-he,html.a11y-font .stat .n,html.a11y-font .step .n{font-family:Arial,Helvetica,'Noto Sans',sans-serif!important;letter-spacing:0!important}
+html.a11y-nomotion,html.a11y-nomotion *,html.a11y-nomotion *::before,html.a11y-nomotion *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+
+/* consent + cookie */
+.consent{grid-column:1/-1;display:flex;gap:12px;align-items:flex-start;font-size:14.5px;color:#2C3648}
+.consent input{width:22px;height:22px;min-height:0;margin:2px 0 0;flex:none;accent-color:var(--ink)}
+.consent label{font-weight:500;font-size:14.5px;color:#2C3648}
+.consent a{color:var(--ink);font-weight:700}
+.cookie{position:fixed;bottom:0;inset-inline:0;z-index:65;background:var(--white);border-top:1px solid var(--line);box-shadow:0 -8px 30px rgba(14,34,64,.12);padding:14px 24px;padding-inline-start:88px}
+.cookie[hidden]{display:none}
+.cookie .wrap{display:flex;gap:16px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.cookie p{font-size:14px;color:#2C3648;flex:1 1 420px}
+.cookie .btn{min-height:40px;padding:8px 16px;font-size:14px}
+@media (max-width:900px){.cookie{padding:12px 16px 84px}}
+footer .legal-links{display:flex;gap:16px;flex-wrap:wrap;margin-top:10px}
+footer .legal-links a{font-size:13px;font-weight:700}
+
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head>
+<body>
+<a class="skip" href="#top" data-i18n="nav.skip">דילוג לתוכן</a>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Tarshish Trade">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="#0E2240" stroke-width="10"><path d="M 74 34 L 72 34 A 12 12 0 0 1 84 46 L 84 54 A 12 12 0 0 1 72 66 L 42 66"/><path d="M 26 66 L 28 66 A 12 12 0 0 1 16 54 L 16 46 A 12 12 0 0 1 28 34 L 58 34"/></g><g fill="none" stroke="#C9A24B" stroke-width="10"><path d="M 66 74 L 66 72 A 12 12 0 0 1 54 84 L 46 84 A 12 12 0 0 1 34 72 L 34 42"/><path d="M 34 26 L 34 28 A 12 12 0 0 1 46 16 L 54 16 A 12 12 0 0 1 66 28 L 66 58"/></g></svg>
+      <span class="wordmark"><span class="wm-en">TARSHISH<small>TRADE</small></span><span class="wm-he">תרשיש</span></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="links" data-i18n="nav.menu">תפריט</button>
+    <nav class="links" id="links" aria-label="Main">
+      <a href="#services" data-i18n="nav.services">שירותי תקינה ומכס</a>
+      <a href="#exclusive" data-i18n="nav.exclusive">יבוא וייצוג בלעדי</a>
+      <a href="#edge" data-i18n="nav.edge">היתרון המשולב</a>
+      <a href="#process" data-i18n="nav.process">תהליך העבודה</a>
+      <a href="#contact" data-i18n="nav.contact">צור קשר</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="he" aria-pressed="true">HE</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+      <button type="button" data-lang="it" aria-pressed="false">IT</button>
+    </div>
+    <a class="btn btn-primary cta-nav" href="#checker" data-i18n="nav.cta">בדיקת היתכנות ליבוא</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero blueprint">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="badge"><i></i><span data-i18n="hero.badge">רגולציה • מכס • יבוא בלעדי</span></span>
+        <h1 data-i18n="hero.h1">מביאים מוצרים בינלאומיים לישראל, בלי הפתעות במכס ובמכון התקנים.</h1>
+        <p class="sub" data-i18n="hero.sub">ייעוץ וליווי ליבואנים מול מכון התקנים ורשויות המכס, לצד ייצוג והפצה בלעדית של מותגים בינלאומיים נבחרים בישראל.</p>
+        <div class="ctas">
+          <a class="btn btn-primary" href="#checker" data-i18n="hero.cta1">בדיקת תקן ומכס למוצר שלך</a>
+          <a class="btn btn-outline" href="#exclusive" data-i18n="hero.cta2">הכירו את המותג הבלעדי שלנו</a>
+        </div>
+      </div>
+      <div class="file" aria-label="Illustration">
+        <div class="file-head"><strong data-i18n="card.title">תיק שחרור יבוא (דוגמה)</strong><span>TT-2026-0417</span></div>
+        <div class="file-row"><div><div class="k" data-i18n="card.k1">מכון התקנים (מת"י)</div><div class="v" data-i18n="card.v1">מאושר: מסלול אירופאי</div></div><span class="status"><i></i><span data-i18n="card.s1">אושר</span></span></div>
+        <div class="file-row"><div><div class="k" data-i18n="card.k2">פרט מכס</div><div class="v" data-i18n="card.v2">מסווג ומאומת</div></div><span class="status"><i></i><span data-i18n="card.s2">אושר</span></span></div>
+        <div class="file-row"><div><div class="k" data-i18n="card.k3">סימון בעברית ותיק טכני</div><div class="v" data-i18n="card.v3">הושלם</div></div><span class="status"><i></i><span data-i18n="card.s3">אושר</span></span></div>
+        <div class="file-row"><div><div class="k" data-i18n="card.k4">שחרור מכס</div><div class="v" data-i18n="card.v4">מוכן להפצה בישראל</div></div><span class="status ink"><i></i><span data-i18n="card.s4">שוחרר</span></span></div>
+        <div class="file-foot" data-i18n="card.note">המחשה של התהליך, לא מערכת תוכנה.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pillars" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-i18n="pillars.title">שני עולמות, מומחיות אחת</h2>
+        <p data-i18n="pillars.sub">ייעוץ ליבואנים ישראלים מצד אחד, ייצוג בלעדי של יצרנים בינלאומיים מצד שני. אותו אדם, אותה שרשרת, מהמפעל בחו"ל ועד המדף בישראל.</p>
+      </div>
+      <div class="grid">
+        <article class="pillar">
+          <span class="kicker" data-i18n="p1.kicker">עמוד 1 · יבואנים ישראלים</span>
+          <h3 data-i18n="p1.title">ייעוץ תקינה, מכס ורגולציה</h3>
+          <p data-i18n="p1.body">צווארי בקבוק בנמל, בדיקות מעבדה במת"י, הרפורמה האירופית ביבוא ("מה שטוב לאירופה טוב לישראל", מסלולי הצהרה במקום בדיקות), סיווג פרט מכס ותיק מוצר טכני. בודקים לפני שמזמינים, לא אחרי שהמכולה תקועה.</p>
+          <ul>
+            <li data-i18n="p1.b1">בדיקת היתכנות ותקינה לפני ההזמנה</li>
+            <li data-i18n="p1.b2">סיווג פרט מכס והכנת תיק טכני</li>
+            <li data-i18n="p1.b3">ניהול בדיקות מעבדה, מת"י ועמילי מכס עד השחרור</li>
+            <li data-i18n="p1.b4">השגת זכויות הפצה בלעדיות מול המותג בחו"ל</li>
+          </ul>
+        </article>
+        <article class="pillar showcase" id="exclusive">
+          <span class="kicker" data-i18n="p2.kicker">עמוד 2 · מותגים בינלאומיים</span>
+          <h3 data-i18n="p2.title">יבוא והפצה בלעדית</h3>
+          <p data-i18n="p2.body">ליצרן שרוצה נציג בישראל, לא שורה בקטלוג של מפיץ. אנחנו מוכרים לרשתות, מנהלים את הרגולציה ואת הלקוחות; אתם שולחים את הסחורה.</p>
+          <div class="brand-line">
+            <svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="#F5F1E8" stroke-width="10"><path d="M 74 34 L 72 34 A 12 12 0 0 1 84 46 L 84 54 A 12 12 0 0 1 72 66 L 42 66"/><path d="M 26 66 L 28 66 A 12 12 0 0 1 16 54 L 16 46 A 12 12 0 0 1 28 34 L 58 34"/></g><g fill="none" stroke="#C9A24B" stroke-width="10"><path d="M 66 74 L 66 72 A 12 12 0 0 1 54 84 L 46 84 A 12 12 0 0 1 34 72 L 34 42"/><path d="M 34 26 L 34 28 A 12 12 0 0 1 46 16 L 54 16 A 12 12 0 0 1 66 28 L 66 58"/></g></svg>
+            <div>
+              <span class="kicker" data-i18n="show.kicker">מותג נבחר בייצוג בלעדי</span>
+              <div class="brand-name" id="showName">ההכרזה בקרוב<small id="showDesc">הייצוג הבלעדי הראשון שלנו של יצרן אירופי נמצא בחתימה. הפרטים יופיעו כאן.</small></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="checker" id="checker">
+    <div class="wrap">
+      <div>
+        <h2 data-i18n="checker.title">בדיקת מסלול מהירה למוצר</h2>
+        <p class="sub" data-i18n="checker.sub">בחרו קטגוריה ומקור, וקבלו את המסלול הרגולטורי הסביר, מה נדרש וכמה זמן זה לוקח בדרך כלל. אינדיקציה בלבד; כל מוצר נבדק לגופו.</p>
+      </div>
+      <div>
+        <div class="q"><span class="kicker" data-i18n="checker.q1">קטגוריית המוצר</span><div class="chips" id="catChips" role="group"></div></div>
+        <div class="q"><span class="kicker" data-i18n="checker.q2">מאיפה מייבאים</span><div class="chips" id="originChips" role="group"></div></div>
+        <button class="btn btn-primary" type="button" id="runCheck" data-i18n="checker.run">הצגת המסלול</button>
+        <div class="hint" id="checkHint"></div>
+        <div class="result" id="result" hidden aria-live="polite">
+          <div class="result-head"><span class="kicker" id="resPathKicker"></span><h3 id="resName"></h3><p id="resDesc"></p></div>
+          <div class="result-grid">
+            <div><b data-i18n="result.authority">מי מעורב</b><span id="resAuth"></span></div>
+            <div><b data-i18n="result.docs">מה נדרש</b><span id="resDocs"></span></div>
+            <div><b data-i18n="result.time">זמן טיפוסי</b><span id="resTime"></span></div>
+          </div>
+          <div class="result-foot">
+            <button class="btn btn-primary" type="button" id="toForm" data-i18n="checker.toform">להעביר לטופס</button>
+            <a class="btn btn-outline" id="toWa" href="https://wa.me/972526240062" target="_blank" rel="noopener" data-i18n="checker.towa">לשאול בוואטסאפ</a>
+            <span class="note" data-i18n="checker.note">אינדיקציה בלבד. המסלול הסופי נקבע אחרי בדיקת המוצר עצמו.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="edge" id="edge">
+    <div class="wrap">
+      <div>
+        <h2 data-i18n="edge.title">למה לעבוד עם יבואן שהוא גם יועץ רגולציה?</h2>
+        <div class="gold-rule" style="margin-top:18px"></div>
+      </div>
+      <div>
+        <p data-i18n="edge.body">יועצים מכירים את התיאוריה. יבואנים נתקעים בבירוקרטיה. מכיוון שאנחנו מייבאים ומשחררים בעצמנו את המותג הבלעדי שלנו, אנחנו שולטים בשרשרת כולה, מרצפת המפעל ועד מדף הקמעונאות בישראל.</p>
+        <div class="facts">
+          <div class="fact"><b data-i18n="edge.f1k">תקינה</b><span data-i18n="edge.f1v">מת"י, משרד הכלכלה, הבריאות והתקשורת</span></div>
+          <div class="fact"><b data-i18n="edge.f2k">מכס</b><span data-i18n="edge.f2v">סיווג, רפורמה אירופית, שחרור</span></div>
+          <div class="fact"><b data-i18n="edge.f3k">מדף</b><span data-i18n="edge.f3v">רשתות, מותג פרטי, הפצה</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process blueprint" id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 data-i18n="process.title">תהליך העבודה שלנו</h2>
+        <p data-i18n="process.sub">ארבעה שלבים, בסדר הזה. הראשון חוסך את שלושת האחרים מהפתעות.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="n">01</div><h3 data-i18n="s1.t">בדיקת היתכנות ותקינה מראש</h3><p data-i18n="s1.p">בדיקת דרישות מת"י, משרד הכלכלה, הבריאות והתקשורת, לפני הזמנת הסחורה.</p><button class="more" type="button" aria-expanded="false" data-i18n="step.more">פרטים</button><div class="detail" hidden><div><b data-i18n="result.authority">מי מעורב</b><span data-i18n="s1.who"></span></div><div><b data-i18n="result.docs">מה נדרש</b><span data-i18n="s1.docs"></span></div><div><b data-i18n="result.time">זמן טיפוסי</b><span data-i18n="s1.time"></span></div></div></div>
+        <div class="step"><div class="n">02</div><h3 data-i18n="s2.t">סיווג מכס ותיק מוצר</h3><p data-i18n="s2.p">קביעת פרט מכס מדויק והכנת תיק טכני מלא, כולל התאמה לרפורמה האירופית.</p><button class="more" type="button" aria-expanded="false" data-i18n="step.more">פרטים</button><div class="detail" hidden><div><b data-i18n="result.authority">מי מעורב</b><span data-i18n="s2.who"></span></div><div><b data-i18n="result.docs">מה נדרש</b><span data-i18n="s2.docs"></span></div><div><b data-i18n="result.time">זמן טיפוסי</b><span data-i18n="s2.time"></span></div></div></div>
+        <div class="step"><div class="n">03</div><h3 data-i18n="s3.t">ניהול בדיקות ושחרור</h3><p data-i18n="s3.p">ליווי צמוד מול מעבדות הבדיקה, מכון התקנים ועמילי המכס עד לשחרור מלא.</p><button class="more" type="button" aria-expanded="false" data-i18n="step.more">פרטים</button><div class="detail" hidden><div><b data-i18n="result.authority">מי מעורב</b><span data-i18n="s3.who"></span></div><div><b data-i18n="result.docs">מה נדרש</b><span data-i18n="s3.docs"></span></div><div><b data-i18n="result.time">זמן טיפוסי</b><span data-i18n="s3.time"></span></div></div></div>
+        <div class="step"><div class="n">04</div><h3 data-i18n="s4.t">שיווק והפצה בישראל</h3><p data-i18n="s4.p">החדרה לשוק הישראלי עבור מותגים בינלאומיים בייצוג בלעדי.</p><button class="more" type="button" aria-expanded="false" data-i18n="step.more">פרטים</button><div class="detail" hidden><div><b data-i18n="result.authority">מי מעורב</b><span data-i18n="s4.who"></span></div><div><b data-i18n="result.docs">מה נדרש</b><span data-i18n="s4.docs"></span></div><div><b data-i18n="result.time">זמן טיפוסי</b><span data-i18n="s4.time"></span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="founder" id="founder">
+    <div class="wrap">
+      <h2 data-i18n="founder.title">מי מאחורי תרשיש</h2>
+      <div class="team">
+        <div class="person-card david">
+          <div class="person-head">
+            <img src="david-founder-headshot-384.webp" width="384" height="384" alt="דוד פיצ'חדזה, מייסד ומנכ\"ל תרשיש" data-i18n-alt="team.david.alt" loading="lazy" decoding="async">
+            <div><div class="name" data-i18n="team.david.name">דוד פיצ'חדזה</div><div class="role" data-i18n="team.david.role">מייסד ומנכ"ל</div></div>
+          </div>
+          <p class="bio" data-i18n="team.david.bio">יזם ומנהל בעל ניסיון עסקי רחב מחברות מובילות בתחום הפינטק. מתמחה באסטרטגיה, פיתוח עסקי וניהול קשרי לקוחות, ומוביל את החזון והצמיחה של החברה תוך הטמעת סטנדרטים של שקיפות, מהירות וחדשנות בתהליכי היבוא והסחר.</p>
+        </div>
+        <div class="person-card michael">
+          <div class="person-head">
+            <img src="michael-headshot-384-v6.webp" width="384" height="384" alt="מיכאל פיצ'חדזה, יועץ ומנהל תפעול בתרשיש" data-i18n-alt="founder.alt" loading="lazy" decoding="async">
+            <div><div class="name" data-i18n="founder.name">מיכאל פיצ'חדזה</div><div class="role" data-i18n="founder.role">יועץ ומנהל תפעול</div></div>
+          </div>
+          <p class="bio" data-i18n="founder.bio">יותר מחמש-עשרה שנים ביבוא וייצוא של סחורות לישראל, אחרי עשור בניהול כל קו המוצרים של פוקס הום בפוקס-ויזל, לצד מינֶנֶה ומותגים נוספים בקבוצה. הוביל קווי מוצר רבים דרך תו התקן של מכון התקנים עד לדרגת היהלום של תו התקן היוקרתי. עובד בעברית, באנגלית וברוסית.</p>
+          <div class="proof">
+          <div data-i18n="founder.pr1">עשור בניהול קו המוצרים של פוקס הום, מקור, תקינה, לוגיסטיקה, קמעונאות</div>
+          <div data-i18n="founder.pr2">קווי מוצר שהובלו לדרגת היהלום של תו התקן היוקרתי של מת"י</div>
+          <div data-i18n="founder.pr3">מדיניות ברורה: לא מייעצים למתחרה של מותג שאנחנו מייצגים</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lead" id="contact">
+    <div class="wrap">
+      <div>
+        <h2 data-i18n="lead.title">בדיקת היתכנות מהירה ליבוא</h2>
+        <p class="sub" data-i18n="lead.sub">לעסקים ולבעלי מותגים. לא מטפלים ביבוא אישי.</p>
+        <p class="how" data-i18n="lead.how">הפרטים נשלחים בוואטסאפ (או במייל), חוזרים תוך יום עסקים.</p>
+      </div>
+      <div>
+        <div class="tabs" role="group" aria-label="Who are you">
+          <button type="button" class="tab" data-type="importer" aria-pressed="true" data-i18n="lead.tab1">אני יבואן ישראלי (צריך ייעוץ תקינה/מכס)</button>
+          <button type="button" class="tab" data-type="brand" aria-pressed="false" data-i18n="lead.tab2">אני מותג בינלאומי (מחפש נציג בלעדי בישראל)</button>
+        </div>
+        <form id="leadForm" novalidate>
+          <div class="field"><label for="f_name" data-i18n="lead.name">שם מלא</label><input id="f_name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="f_company" data-i18n="lead.company">שם החברה</label><input id="f_company" name="company" autocomplete="organization"></div>
+          <div class="field"><label for="f_contact" data-i18n="lead.contact">טלפון / אימייל</label><input id="f_contact" name="contact" required></div>
+          <div class="field"><label for="f_product" data-i18n="lead.product">שם המוצר או קישור לקטלוג</label><input id="f_product" name="product"></div>
+          <div class="field full"><label for="f_notes" data-i18n="lead.notes">הערות</label><textarea id="f_notes" name="notes"></textarea></div>
+          <div class="consent"><input type="checkbox" id="f_consent" name="consent" required><label for="f_consent" id="consentLabel">קראתי ואני מאשר/ת את <a href="#privacy">מדיניות הפרטיות</a> ו<a href="#terms">תנאי השימוש</a> של האתר</label></div>
+          <div class="submit"><button class="btn btn-primary" type="submit" data-i18n="lead.submit">קבלת הערכה ראשונית</button><span id="formMsg" class="how" aria-live="polite"></span></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="brand" href="#top" aria-label="Tarshish Trade" style="margin-bottom:14px">
+          <svg viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="#0E2240" stroke-width="10"><path d="M 74 34 L 72 34 A 12 12 0 0 1 84 46 L 84 54 A 12 12 0 0 1 72 66 L 42 66"/><path d="M 26 66 L 28 66 A 12 12 0 0 1 16 54 L 16 46 A 12 12 0 0 1 28 34 L 58 34"/></g><g fill="none" stroke="#C9A24B" stroke-width="10"><path d="M 66 74 L 66 72 A 12 12 0 0 1 54 84 L 46 84 A 12 12 0 0 1 34 72 L 34 42"/><path d="M 34 26 L 34 28 A 12 12 0 0 1 46 16 L 54 16 A 12 12 0 0 1 66 28 L 66 58"/></g></svg>
+          <span class="wordmark"><span class="wm-en">TARSHISH<small>TRADE</small></span><span class="wm-he">תרשיש</span></span>
+        </a>
+        <p data-i18n="f.about">תקינה, מכס וייצוג בלעדי בישראל. מביאים מוצרים מחו"ל למדף הישראלי, עומדים בתקן, מאושרים, ונמכרים.</p>
+      </div>
+      <div>
+        <h4 data-i18n="f.links">קישורים</h4>
+        <ul>
+          <li><a href="#services" data-i18n="nav.services">שירותי תקינה ומכס</a></li>
+          <li><a href="#exclusive" data-i18n="nav.exclusive">יבוא וייצוג בלעדי</a></li>
+          <li><a href="#process" data-i18n="nav.process">תהליך העבודה</a></li>
+          <li><a href="#founder" data-i18n="nav.founder">מי אנחנו</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">צור קשר</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="f.contact">יצירת קשר</h4>
+        <ul>
+          <li><strong>Tarshish Trade · תרשיש סחר</strong></li>
+          <li data-i18n="f.country">ישראל</li>
+          <li><a href="mailto:hello@tarshishtrade.com">hello@tarshishtrade.com</a></li>
+        </ul>
+        <h4 style="margin-top:18px" data-i18n="f.lang">שפה</h4>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="he" aria-pressed="true">HE</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+          <button type="button" data-lang="it" aria-pressed="false">IT</button>
+        </div>
+      </div>
+    </div>
+    <div class="legal">
+      <div>
+        <span data-i18n="f.legal">המידע באתר כללי ואינו חוות דעת משפטית או מכסית. כל מוצר נבדק לגופו.</span>
+        <nav class="legal-links" aria-label="Legal">
+          <a href="#privacy" data-i18n="legal.privacy">מדיניות פרטיות</a>
+          <a href="#accessibility" data-i18n="legal.accessibility">הצהרת נגישות</a>
+          <a href="#terms" data-i18n="legal.terms">תנאי שימוש</a>
+        </nav>
+      </div>
+      <span>© 2026 Tarshish Trade · תרשיש סחר</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/972526240062" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="keep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.7-.9L3 21l2-4.9A8.4 8.4 0 0 1 3 11.5a8.4 8.4 0 0 1 9-8.4 8.4 8.4 0 0 1 9 8.4z"/></svg><span>WhatsApp</span></a>
+
+<button type="button" class="a11y-btn" id="a11yBtn" aria-expanded="false" aria-controls="a11yPanel" aria-label="נגישות" data-i18n-aria="a11y.open"><svg class="keep" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="4.5" r="2"/><path d="M4 8.5c3 .8 5.5 1.1 8 1.1s5-.3 8-1.1l.5 1.9c-2.3.6-4.2.9-6 1v2.6l2.6 7.1-1.9.7-2.6-6.8h-1.2l-2.6 6.8-1.9-.7 2.6-7.1v-2.6c-1.8-.1-3.7-.4-6-1L4 8.5z"/></svg></button>
+<div class="a11y-panel" id="a11yPanel" hidden role="dialog" aria-label="תפריט נגישות" data-i18n-aria="a11y.title">
+  <h3><span data-i18n="a11y.title">תפריט נגישות</span><button type="button" class="x" id="a11yClose" aria-label="סגירה" data-i18n-aria="a11y.close">×</button></h3>
+  <div class="a11y-grid">
+    <button type="button" data-a11y="bigger" data-i18n="a11y.bigger">הגדלת טקסט</button>
+    <button type="button" data-a11y="smaller" data-i18n="a11y.smaller">הקטנת טקסט</button>
+    <button type="button" data-a11y="contrast" aria-pressed="false" data-i18n="a11y.contrast">ניגודיות גבוהה</button>
+    <button type="button" data-a11y="gray" aria-pressed="false" data-i18n="a11y.gray">גווני אפור</button>
+    <button type="button" data-a11y="links" aria-pressed="false" data-i18n="a11y.links">הדגשת קישורים</button>
+    <button type="button" data-a11y="font" aria-pressed="false" data-i18n="a11y.font">גופן קריא</button>
+    <button type="button" data-a11y="nomotion" aria-pressed="false" class="wide" data-i18n="a11y.motion">עצירת אנימציות</button>
+    <a href="#accessibility" class="wide" data-i18n="legal.accessibility">הצהרת נגישות</a>
+    <button type="button" data-a11y="reset" class="wide reset" data-i18n="a11y.reset">איפוס הגדרות</button>
+  </div>
+</div>
+<div class="legal-modal" id="legal" hidden role="dialog" aria-modal="true" aria-labelledby="legalTitle">
+  <div class="legal-box">
+    <button type="button" class="legal-close" id="legalClose" aria-label="סגירה" data-i18n-aria="legal.close">×</button>
+    <nav class="legal-nav" aria-label="Legal pages">
+      <a href="#privacy" data-i18n="legal.privacy">מדיניות פרטיות</a>
+      <a href="#accessibility" data-i18n="legal.accessibility">הצהרת נגישות</a>
+      <a href="#terms" data-i18n="legal.terms">תנאי שימוש</a>
+    </nav>
+    <div id="legalBody"><h3 id="legalTitle"></h3></div>
+  </div>
+</div>
+<div class="cookie" id="cookie" hidden role="region" aria-label="Cookies">
+  <div class="wrap"><p id="cookieText"></p><button type="button" class="btn btn-primary" id="cookieOk" data-i18n="cookie.accept">הבנתי</button></div>
+</div>
+
+<script>
+(function(){
+  // ---- settings: fill these two and the form goes live ----
+  var WHATSAPP_NUMBER = "972526240062";   // business WhatsApp, international format, digits only
+  var SHOWCASE_PUBLIC = false;             // flip to true the day the exclusive brand can be announced
+  var EMAIL = "hello@tarshishtrade.com";      // the one public address, used in the form fallback and the legal pages
+  var LEGAL_UPDATED = "2026-11-17";           // date the legal texts were last changed (YYYY-MM-DD)
+  var A11Y_AUDIT_DATE = "2026-11-24";         // accessibility audit date (YYYY-MM-DD)
+  var A11Y_AUDIT_DONE = false;                // flip to true only after that audit has really been carried out
+
+  var T = {
+  he: {
+    "nav.menu":"תפריט","nav.skip":"דילוג לתוכן","nav.services":"שירותי תקינה ומכס","nav.exclusive":"יבוא וייצוג בלעדי","nav.edge":"היתרון המשולב","nav.process":"תהליך העבודה","nav.founder":"מי אנחנו","nav.contact":"צור קשר","nav.cta":"בדיקת היתכנות ליבוא",
+    "hero.badge":"רגולציה • מכס • יבוא בלעדי",
+    "hero.h1":"מביאים מוצרים בינלאומיים לישראל, בלי הפתעות במכס ובמכון התקנים.",
+    "hero.sub":"ייעוץ וליווי ליבואנים מול מכון התקנים ורשויות המכס, לצד ייצוג והפצה בלעדית של מותגים בינלאומיים נבחרים בישראל.",
+    "hero.cta1":"בדיקת תקן ומכס למוצר שלך","hero.cta2":"הכירו את המותג הבלעדי שלנו",
+    "card.title":"תיק שחרור יבוא (דוגמה)","card.k1":"מכון התקנים (מת\"י)","card.v1":"מאושר: מסלול אירופאי","card.s1":"אושר","card.k2":"פרט מכס","card.v2":"מסווג ומאומת","card.s2":"אושר","card.k3":"סימון בעברית ותיק טכני","card.v3":"הושלם","card.s3":"אושר","card.k4":"שחרור מכס","card.v4":"מוכן להפצה בישראל","card.s4":"שוחרר","card.note":"המחשה של התהליך, לא מערכת תוכנה.",
+    "pillars.title":"שני עולמות, מומחיות אחת","pillars.sub":"ייעוץ ליבואנים ישראלים מצד אחד, ייצוג בלעדי של יצרנים בינלאומיים מצד שני. אותו אדם, אותה שרשרת, מהמפעל בחו\"ל ועד המדף בישראל.",
+    "p1.kicker":"עמוד 1 · יבואנים ישראלים","p1.title":"ייעוץ תקינה, מכס ורגולציה","p1.body":"צווארי בקבוק בנמל, בדיקות מעבדה במת\"י, הרפורמה האירופית ביבוא (\"מה שטוב לאירופה טוב לישראל\", מסלולי הצהרה במקום בדיקות), סיווג פרט מכס ותיק מוצר טכני. בודקים לפני שמזמינים, לא אחרי שהמכולה תקועה.",
+    "p1.b1":"בדיקת היתכנות ותקינה לפני ההזמנה","p1.b2":"סיווג פרט מכס והכנת תיק טכני","p1.b3":"ניהול בדיקות מעבדה, מת\"י ועמילי מכס עד השחרור","p1.b4":"השגת זכויות הפצה בלעדיות מול המותג בחו\"ל",
+    "p2.kicker":"עמוד 2 · מותגים בינלאומיים","p2.title":"יבוא והפצה בלעדית","p2.body":"ליצרן שרוצה נציג בישראל, לא שורה בקטלוג של מפיץ. אנחנו מוכרים לרשתות, מנהלים את הרגולציה ואת הלקוחות; אתם שולחים את הסחורה.",
+    "show.kicker":"מותג נבחר בייצוג בלעדי","show.soonName":"ההכרזה בקרוב","show.soonDesc":"הייצוג הבלעדי הראשון שלנו של יצרן אירופי נמצא בחתימה. הפרטים יופיעו כאן.",
+    "edge.title":"למה לעבוד עם יבואן שהוא גם יועץ רגולציה?","edge.body":"יועצים מכירים את התיאוריה. יבואנים נתקעים בבירוקרטיה. מכיוון שאנחנו מייבאים ומשחררים בעצמנו את המותג הבלעדי שלנו, אנחנו שולטים בשרשרת כולה, מרצפת המפעל ועד מדף הקמעונאות בישראל.",
+    "edge.f1k":"תקינה","edge.f1v":"מת\"י, משרד הכלכלה, הבריאות והתקשורת","edge.f2k":"מכס","edge.f2v":"סיווג, רפורמה אירופית, שחרור","edge.f3k":"מדף","edge.f3v":"רשתות, מותג פרטי, הפצה",
+    "process.title":"תהליך העבודה שלנו","process.sub":"ארבעה שלבים, בסדר הזה. הראשון חוסך את שלושת האחרים מהפתעות.",
+    "s1.t":"בדיקת היתכנות ותקינה מראש","s1.p":"בדיקת דרישות מת\"י, משרד הכלכלה, הבריאות והתקשורת, לפני הזמנת הסחורה.","s2.t":"סיווג מכס ותיק מוצר","s2.p":"קביעת פרט מכס מדויק והכנת תיק טכני מלא, כולל התאמה לרפורמה האירופית.","s3.t":"ניהול בדיקות ושחרור","s3.p":"ליווי צמוד מול מעבדות הבדיקה, מכון התקנים ועמילי המכס עד לשחרור מלא.","s4.t":"שיווק והפצה בישראל","s4.p":"החדרה לשוק הישראלי עבור מותגים בינלאומיים בייצוג בלעדי.",
+    "founder.title":"מי מאחורי תרשיש","team.david.name":"דוד פיצ'חדזה","team.david.role":"מייסד ומנכ\"ל","founder.name":"מיכאל פיצ'חדזה","founder.role":"יועץ ומנהל תפעול","founder.bio":"יותר מחמש-עשרה שנים ביבוא וייצוא של סחורות לישראל, אחרי עשור בניהול כל קו המוצרים של פוקס הום בפוקס-ויזל, לצד מינֶנֶה ומותגים נוספים בקבוצה. הוביל קווי מוצר רבים דרך תו התקן של מכון התקנים עד לדרגת היהלום של תו התקן היוקרתי. עובד בעברית, באנגלית וברוסית.",
+    "founder.pr1":"עשור בניהול קו המוצרים של פוקס הום, מקור, תקינה, לוגיסטיקה, קמעונאות","founder.pr2":"קווי מוצר שהובלו לדרגת היהלום של תו התקן היוקרתי של מת\"י","founder.pr3":"מדיניות ברורה: לא מייעצים למתחרה של מותג שאנחנו מייצגים",
+    "lead.title":"בדיקת היתכנות מהירה ליבוא","lead.sub":"לעסקים ולבעלי מותגים. לא מטפלים ביבוא אישי.","lead.how":"הפרטים נשלחים בוואטסאפ (או במייל), חוזרים תוך יום עסקים.","lead.tab1":"אני יבואן ישראלי (צריך ייעוץ תקינה/מכס)","lead.tab2":"אני מותג בינלאומי (מחפש נציג בלעדי בישראל)","lead.name":"שם מלא","lead.company":"שם החברה","lead.contact":"טלפון / אימייל","lead.product":"שם המוצר או קישור לקטלוג","lead.notes":"הערות","lead.submit":"קבלת הערכה ראשונית","lead.missing":"נא למלא שם ודרך ליצירת קשר.","lead.sent":"נפתח חלון שליחה. אם לא נפתח, כתבו לנו במייל.",
+    "checker.title":"בדיקת מסלול מהירה למוצר","checker.sub":"בחרו קטגוריה ומקור, וקבלו את המסלול הרגולטורי הסביר, מה נדרש וכמה זמן זה לוקח בדרך כלל. אינדיקציה בלבד; כל מוצר נבדק לגופו.","checker.q1":"קטגוריית המוצר","checker.q2":"מאיפה מייבאים","checker.run":"הצגת המסלול","checker.pick":"בחרו קטגוריה ומקור כדי להמשיך.","checker.toform":"להעביר לטופס","checker.towa":"לשאול בוואטסאפ","checker.note":"אינדיקציה בלבד. המסלול הסופי נקבע אחרי בדיקת המוצר עצמו.","checker.pathfor":"המסלול הסביר עבור",
+    "cat.toys":"צעצועים ומוצרי ילדים","cat.textile":"טקסטיל והלבשה","cat.home":"טקסטיל לבית וריהוט","cat.electric":"חשמל ואלקטרוניקה","cat.cosmetics":"קוסמטיקה וטיפוח","cat.cleaning":"ניקיון וכימיקלים לבית","cat.kitchen":"כלי מטבח ומוצרים במגע עם מזון","cat.food":"מזון ומשקאות","cat.building":"בנייה, אינסטלציה וכלי עבודה","cat.other":"אחר / לא בטוח",
+    "origin.eu":"האיחוד האירופי","origin.uk":"בריטניה","origin.us":"ארה\"ב","origin.cn":"סין","origin.tr":"טורקיה","origin.other":"אחר",
+    "path.decl.name":"מסלול הצהרה (הרפורמה האירופית)","path.decl.desc":"מוצר שעומד בדרישות האירופיות ומשווק באיחוד יכול, ברוב הקטגוריות, להיכנס לישראל על בסיס הצהרת יבואן ותיק טכני, בלי בדיקת מעבדה חוזרת בארץ.",
+    "path.test.name":"בדיקת תקן (מת\"י או מעבדה מוכרת)","path.test.desc":"חל תקן ישראלי רשמי. המוצר נבדק במכון התקנים או במעבדה מוכרת לפני השחרור, על בסיס דגימות ותיק טכני. דוחות בדיקה קיימים מקצרים את הדרך.",
+    "path.licence.name":"רישוי משרדי (בנוסף לתקינה)","path.licence.desc":"נדרש רישיון או רישום ברשות ממשלתית לפני היבוא, על בסיס הרכב, תוויות ואישורי יצרן. מוצרים המשווקים באיחוד נהנים לרוב ממסלול מקוצר.",
+    "path.label.name":"סימון ותיעוד (ללא בדיקת מעבדה)","path.label.desc":"לרוב אין תקן רשמי שמחייב בדיקה. הדרישה היא סימון נכון בעברית, הרכב ותיעוד יצרן, וסיווג מכס מדויק. פריטי ילדים עשויים לדרוש בדיקה.",
+    "path.review.name":"נבדוק יחד","path.review.desc":"קטגוריה שלא ברורה מראש. שלחו שם מוצר או קישור, ונחזור עם המסלול המדויק.",
+    "result.authority":"מי מעורב","result.docs":"מה נדרש","result.time":"זמן טיפוסי",
+    "time.decl":"2 עד 4 שבועות","time.test":"6 עד 10 שבועות","time.licence":"8 עד 16 שבועות","time.label":"1 עד 3 שבועות","time.review":"לאחר בדיקה ראשונית",
+    "docs.decl":"הצהרת התאמה אירופית (DoC), דוחות בדיקה לתקן האירופי, סימון בעברית, סיווג פרט מכס.","docs.test":"דגימות למעבדה, תיק טכני, סימון בעברית, סיווג פרט מכס. דוחות קיימים (EN / IEC) מקצרים.","docs.licence":"בקשת רישוי: הרכב או מפרט, תוויות, אישורי יצרן ושיווק במקור, ואז תקינה וסימון.","docs.label":"תוויות בעברית (הרכב, הוראות טיפול, יבואן), חשבונית ומפרט יצרן, סיווג פרט מכס.","docs.review":"שם המוצר, קישור לקטלוג, ארץ ייצור.",
+    "auth.toys":"מכון התקנים (תקן צעצועים ת\"י 562), משרד הכלכלה","auth.textile":"משרד הכלכלה (סימון טקסטיל), מת\"י לפריטי ילדים","auth.home":"מת\"י (ריהוט, מזרנים, טקסטיל), משרד הכלכלה","auth.electric":"מת\"י (בטיחות חשמל, ת\"י 900 ועוד), משרד התקשורת למוצרים אלחוטיים","auth.cosmetics":"משרד הבריאות (אגף הרוקחות, קוסמטיקה)","auth.cleaning":"המשרד להגנת הסביבה ומשרד הבריאות (חומרים מסוכנים, תכשירים), מת\"י","auth.kitchen":"מת\"י (מגע עם מזון), משרד הבריאות","auth.food":"משרד הבריאות, שירות המזון הארצי (רישיון יבואן ורישום יצרן)","auth.building":"מת\"י (תקנים רשמיים לבנייה ואינסטלציה), משרד הכלכלה","auth.other":"נקבע לפי המוצר",
+    "step.more":"פרטים","step.less":"סגירה",
+    "s1.who":"מת\"י, משרד הכלכלה / הבריאות / התקשורת, אנחנו","s1.docs":"מפרט המוצר, קטלוג, דוחות בדיקה קיימים","s1.time":"3 עד 5 ימי עבודה","s2.who":"עמיל מכס, רשות המסים, אנחנו","s2.docs":"חשבונית פרופורמה, הרכב או חומרים, תמונות, תיק טכני","s2.time":"שבוע עד שבועיים","s3.who":"מעבדה מוכרת או מת\"י, עמיל המכס, הנמל","s3.docs":"דגימות, הצהרות, תוויות סופיות","s3.time":"לפי המסלול: 2 עד 10 שבועות","s4.who":"קניינים ברשתות, מפיצים, אנחנו","s4.docs":"מחירון, מצגת מותג, מלאי ראשון","s4.time":"מתמשך",
+    "team.david.alt":"דוד פיצ'חדזה, מייסד ומנכ\"ל תרשיש","team.david.bio":"יזם ומנהל בעל ניסיון עסקי רחב מחברות מובילות בתחום הפינטק. מתמחה באסטרטגיה, פיתוח עסקי וניהול קשרי לקוחות, ומוביל את החזון והצמיחה של החברה תוך הטמעת סטנדרטים של שקיפות, מהירות וחדשנות בתהליכי היבוא והסחר.",
+    "founder.alt":"מיכאל פיצ'חדזה, יועץ ומנהל תפעול בתרשיש",
+    "legal.privacy":"מדיניות פרטיות","legal.accessibility":"הצהרת נגישות","legal.terms":"תנאי שימוש","legal.close":"סגירה",
+    "a11y.open":"נגישות","a11y.title":"תפריט נגישות","a11y.close":"סגירה","a11y.bigger":"הגדלת טקסט","a11y.smaller":"הקטנת טקסט","a11y.contrast":"ניגודיות גבוהה","a11y.gray":"גווני אפור","a11y.links":"הדגשת קישורים","a11y.font":"גופן קריא","a11y.motion":"עצירת אנימציות","a11y.reset":"איפוס הגדרות",
+    "cookie.text":"האתר שומר במכשיר שלכם רק העדפות (שפה והגדרות נגישות) ואינו משתמש בעוגיות מעקב. פרטים במדיניות הפרטיות.","cookie.accept":"הבנתי",
+    "lead.consent":"קראתי ואני מאשר/ת את {privacy} ו{terms} של האתר","lead.consent.privacy":"מדיניות הפרטיות","lead.consent.terms":"תנאי השימוש","lead.consent.missing":"יש לאשר את מדיניות הפרטיות ותנאי השימוש לפני השליחה.",
+    "f.country":"ישראל",
+    "f.about":"תקינה, מכס וייצוג בלעדי בישראל. מביאים מוצרים מחו\"ל למדף הישראלי, עומדים בתקן, מאושרים, ונמכרים.","f.links":"קישורים","f.contact":"יצירת קשר","f.lang":"שפה","f.legal":"המידע באתר כללי ואינו חוות דעת משפטית או מכסית. כל מוצר נבדק לגופו."
+  },
+  en: {
+    "nav.menu":"Menu","nav.skip":"Skip to content","nav.services":"Standards & customs","nav.exclusive":"Exclusive representation","nav.edge":"The combined edge","nav.process":"How we work","nav.founder":"Who we are","nav.contact":"Contact","nav.cta":"Import feasibility check",
+    "hero.badge":"Regulation • Customs • Exclusive import",
+    "hero.h1":"International products onto Israeli shelves, with no surprises at customs or the Standards Institution.",
+    "hero.sub":"Advisory for importers facing the Standards Institution of Israel and customs, and exclusive representation of selected international brands in Israel.",
+    "hero.cta1":"Check my product's standards & customs path","hero.cta2":"Our selected exclusive brand",
+    "card.title":"Import clearance file (example)","card.k1":"Standards Institution of Israel (SII)","card.v1":"Approved: European track","card.s1":"Approved","card.k2":"Customs item (HS)","card.v2":"Classified and verified","card.s2":"Approved","card.k3":"Hebrew labelling & technical file","card.v3":"Complete","card.s3":"Approved","card.k4":"Customs release","card.v4":"Ready for distribution in Israel","card.s4":"Released","card.note":"An illustration of the process, not a software product.",
+    "pillars.title":"Two worlds, one expertise","pillars.sub":"Advisory for Israeli importers on one side, exclusive representation of international manufacturers on the other. Same person, same chain, from the factory abroad to the shelf in Israel.",
+    "p1.kicker":"Pillar 1 · Israeli importers","p1.title":"Standards, customs and regulatory advisory","p1.body":"Port bottlenecks, SII lab tests, the European import reform (\"what is good for Europe is good for Israel\", declaration tracks instead of testing), HS classification and the product technical file. We check before you order, not after the container is stuck.",
+    "p1.b1":"Feasibility and standards check before the order","p1.b2":"HS classification and the technical file","p1.b3":"Lab tests, the SII and customs brokers, managed through to release","p1.b4":"Securing exclusive distribution rights from the foreign brand",
+    "p2.kicker":"Pillar 2 · International brands","p2.title":"Exclusive import and distribution","p2.body":"For a manufacturer that wants a representative in Israel, not a line in a distributor's catalogue. We sell into the chains, run the regulation and the accounts; you ship the goods.",
+    "show.kicker":"Selected exclusive brand","show.soonName":"Announcement coming","show.soonDesc":"Our first exclusive representation of a European manufacturer is being signed. Details will appear here.",
+    "edge.title":"Why work with an importer who is also a regulatory advisor?","edge.body":"Consultants know the theory. Importers get stuck in the bureaucracy. Because we import and clear our own exclusive brand, we master the whole chain, from the factory floor to the Israeli retail shelf.",
+    "edge.f1k":"Standards","edge.f1v":"SII; Ministries of Economy, Health and Communications","edge.f2k":"Customs","edge.f2v":"Classification, European reform, release","edge.f3k":"Shelf","edge.f3v":"Retail chains, private label, distribution",
+    "process.title":"How we work","process.sub":"Four steps, in this order. The first one saves the other three from surprises.",
+    "s1.t":"Feasibility and standards check, first","s1.p":"SII and Ministry of Economy / Health / Communications requirements, before the goods are ordered.","s2.t":"Customs classification and product file","s2.p":"The exact HS item and a full technical file, aligned with the European reform.","s3.t":"Testing and release, managed","s3.p":"Hands-on with the labs, the SII and the customs brokers until full release.","s4.t":"Marketing and distribution in Israel","s4.p":"Market entry for international brands under exclusive representation.",
+    "founder.title":"Who is behind Tarshish","team.david.name":"David Pichadze","team.david.role":"Founder & CEO","founder.name":"Michael Pichadze","founder.role":"Consultant & Head of Operations","founder.bio":"Fifteen-plus years importing and exporting goods into Israel, after a decade running the entire Fox Home product line at Fox-Wizel, alongside Minene and other group brands. Led multiple product lines through Standards Institution certification to the Diamond tier of the SII Prestigious Standard Mark. Works in Hebrew, English and Russian.",
+    "founder.pr1":"A decade running the Fox Home product line, sourcing, standards, logistics, retail","founder.pr2":"Product lines led to the Diamond tier of the SII Prestigious Standard Mark","founder.pr3":"A clear policy: we never advise a competitor of a brand we represent",
+    "lead.title":"Quick import feasibility check","lead.sub":"For businesses and brand owners. We do not handle private imports.","lead.how":"Your details are sent by WhatsApp (or email), we reply within one business day.","lead.tab1":"I'm an Israeli importer (standards / customs advice)","lead.tab2":"I'm an international brand (seeking an exclusive representative in Israel)","lead.name":"Full name","lead.company":"Company","lead.contact":"Phone / email","lead.product":"Product name or catalogue link","lead.notes":"Notes","lead.submit":"Get an initial assessment","lead.missing":"Please add your name and a way to reach you.","lead.sent":"A send window opened. If it did not, email us.",
+    "checker.title":"Quick path check for your product","checker.sub":"Pick a category and an origin to see the likely regulatory path, what is needed and how long it usually takes. Indicative only; every product is checked on its own merits.","checker.q1":"Product category","checker.q2":"Imported from","checker.run":"Show the path","checker.pick":"Choose a category and an origin to continue.","checker.toform":"Send to the form","checker.towa":"Ask on WhatsApp","checker.note":"Indicative only. The final path is set after we look at the product itself.","checker.pathfor":"Likely path for",
+    "cat.toys":"Toys and children's products","cat.textile":"Textiles and apparel","cat.home":"Home textiles and furniture","cat.electric":"Electrical and electronics","cat.cosmetics":"Cosmetics and personal care","cat.cleaning":"Cleaning and household chemicals","cat.kitchen":"Kitchenware and food-contact items","cat.food":"Food and beverages","cat.building":"Building, plumbing and tools","cat.other":"Other / not sure",
+    "origin.eu":"European Union","origin.uk":"United Kingdom","origin.us":"United States","origin.cn":"China","origin.tr":"Turkey","origin.other":"Other",
+    "path.decl.name":"Declaration track (European reform)","path.decl.desc":"A product that meets the EU requirements and is sold in the EU can, in most categories, enter Israel on an importer's declaration and a technical file, without repeat lab testing in Israel.",
+    "path.test.name":"Standards testing (SII or a recognised lab)","path.test.desc":"An official Israeli standard applies. The product is tested at the SII or a recognised lab before release, from samples and a technical file. Existing test reports shorten the path.",
+    "path.licence.name":"Ministry licensing (plus standards)","path.licence.desc":"A licence or registration with a government authority is needed before import, based on composition, labels and manufacturer certificates. Products sold in the EU usually get a shortened route.",
+    "path.label.name":"Labelling and documentation (no lab test)","path.label.desc":"Usually no official standard that requires testing. The requirement is correct Hebrew labelling, composition and manufacturer documentation, and an exact customs classification. Children's items may need testing.",
+    "path.review.name":"We check it together","path.review.desc":"A category that is not clear in advance. Send a product name or link and we come back with the exact path.",
+    "result.authority":"Who is involved","result.docs":"What is needed","result.time":"Typical time",
+    "time.decl":"2 to 4 weeks","time.test":"6 to 10 weeks","time.licence":"8 to 16 weeks","time.label":"1 to 3 weeks","time.review":"After a first look",
+    "docs.decl":"EU Declaration of Conformity, test reports to the EU standard, Hebrew labelling, HS classification.","docs.test":"Samples for the lab, technical file, Hebrew labelling, HS classification. Existing EN / IEC reports shorten it.","docs.licence":"Licence application: composition or spec, labels, manufacturer and free-sale certificates, then standards and labelling.","docs.label":"Hebrew labels (composition, care, importer), invoice and manufacturer spec, HS classification.","docs.review":"Product name, catalogue link, country of manufacture.",
+    "auth.toys":"SII (toy safety standard SI 562), Ministry of Economy","auth.textile":"Ministry of Economy (textile labelling), SII for children's items","auth.home":"SII (furniture, mattresses, textiles), Ministry of Economy","auth.electric":"SII (electrical safety, SI 900 and others), Ministry of Communications for wireless devices","auth.cosmetics":"Ministry of Health (pharmacy division, cosmetics)","auth.cleaning":"Ministry of Environmental Protection and Ministry of Health (hazardous substances, preparations), SII","auth.kitchen":"SII (food contact), Ministry of Health","auth.food":"Ministry of Health, National Food Service (importer licence, manufacturer registration)","auth.building":"SII (official building and plumbing standards), Ministry of Economy","auth.other":"Depends on the product",
+    "step.more":"Details","step.less":"Close",
+    "s1.who":"SII; Ministries of Economy, Health and Communications; us","s1.docs":"Product spec, catalogue, existing test reports","s1.time":"3 to 5 working days","s2.who":"Customs broker, Tax Authority, us","s2.docs":"Pro forma invoice, composition or materials, photos, technical file","s2.time":"1 to 2 weeks","s3.who":"Recognised lab or SII, the customs broker, the port","s3.docs":"Samples, declarations, final labels","s3.time":"By path: 2 to 10 weeks","s4.who":"Retail buyers, distributors, us","s4.docs":"Price list, brand deck, first stock","s4.time":"Ongoing",
+    "team.david.alt":"David Pichadze, founder and CEO of Tarshish Trade","team.david.bio":"An entrepreneur and executive with extensive business experience across leading fintech companies. He specialises in strategy, business development, and client relationship management, driving the company's vision and growth while bringing standards of transparency, speed, and innovation to import and trade operations.",
+    "founder.alt":"Michael Pichadze, Consultant and Head of Operations at Tarshish Trade",
+    "legal.privacy":"Privacy Policy","legal.accessibility":"Accessibility Statement","legal.terms":"Terms of Use","legal.close":"Close",
+    "a11y.open":"Accessibility","a11y.title":"Accessibility menu","a11y.close":"Close","a11y.bigger":"Larger text","a11y.smaller":"Smaller text","a11y.contrast":"High contrast","a11y.gray":"Grayscale","a11y.links":"Highlight links","a11y.font":"Readable font","a11y.motion":"Stop animations","a11y.reset":"Reset settings",
+    "cookie.text":"This site stores only your preferences (language and accessibility settings) on your device and uses no tracking cookies. Details in the Privacy Policy.","cookie.accept":"Got it",
+    "lead.consent":"I have read and accept the site's {privacy} and {terms}","lead.consent.privacy":"Privacy Policy","lead.consent.terms":"Terms of Use","lead.consent.missing":"Please accept the Privacy Policy and the Terms of Use before sending.",
+    "f.country":"Israel",
+    "f.about":"Standards, customs and exclusive representation in Israel. International products onto Israeli shelves, compliant, certified and sold.","f.links":"Quick links","f.contact":"Contact","f.lang":"Language","f.legal":"The information on this site is general and is not a legal or customs opinion. Every product is assessed on its own merits."
+  },
+  ru: {
+    "nav.menu":"Меню","nav.skip":"К содержанию","nav.services":"Стандарты и таможня","nav.exclusive":"Эксклюзивное представительство","nav.edge":"Двойное преимущество","nav.process":"Как мы работаем","nav.founder":"О нас","nav.contact":"Контакт","nav.cta":"Проверка возможности импорта",
+    "hero.badge":"Регулирование • Таможня • Эксклюзивный импорт",
+    "hero.h1":"Международные товары на полки Израиля, без сюрпризов на таможне и в Институте стандартов.",
+    "hero.sub":"Консультации и сопровождение импортёров в Институте стандартов Израиля и на таможне, а также эксклюзивное представительство избранных международных брендов в Израиле.",
+    "hero.cta1":"Проверить стандарты и таможню для вашего товара","hero.cta2":"Наш эксклюзивный бренд",
+    "card.title":"Дело о таможенном выпуске (пример)","card.k1":"Институт стандартов Израиля","card.v1":"Одобрено: европейский трек","card.s1":"Одобрено","card.k2":"Таможенный код (HS)","card.v2":"Классифицирован и проверен","card.s2":"Одобрено","card.k3":"Маркировка на иврите и техфайл","card.v3":"Готово","card.s3":"Одобрено","card.k4":"Таможенный выпуск","card.v4":"Готов к дистрибуции в Израиле","card.s4":"Выпущен","card.note":"Иллюстрация процесса, а не программный продукт.",
+    "pillars.title":"Два мира, одна экспертиза","pillars.sub":"Консультации израильским импортёрам с одной стороны, эксклюзивное представительство международных производителей, с другой. Один человек, одна цепочка: от фабрики за рубежом до полки в Израиле.",
+    "p1.kicker":"Направление 1 · Израильские импортёры","p1.title":"Стандарты, таможня и регулирование","p1.body":"Заторы в порту, лабораторные испытания в Институте стандартов, европейская реформа импорта («что хорошо для Европы, хорошо для Израиля»: декларации вместо испытаний), классификация HS и технический файл товара. Проверяем до заказа, а не когда контейнер уже застрял.",
+    "p1.b1":"Проверка возможности и стандартов до заказа","p1.b2":"Классификация HS и технический файл","p1.b3":"Лаборатории, Институт стандартов и таможенные брокеры, до выпуска","p1.b4":"Получение эксклюзивных прав дистрибуции у зарубежного бренда",
+    "p2.kicker":"Направление 2 · Международные бренды","p2.title":"Эксклюзивный импорт и дистрибуция","p2.body":"Для производителя, которому нужен представитель в Израиле, а не строка в каталоге дистрибьютора. Мы продаём сетям, ведём регулирование и клиентов; вы отгружаете товар.",
+    "show.kicker":"Избранный бренд в эксклюзивном представительстве","show.soonName":"Скоро объявление","show.soonDesc":"Наше первое эксклюзивное представительство европейского производителя на стадии подписания. Подробности появятся здесь.",
+    "edge.title":"Зачем работать с импортёром, который одновременно консультант по регулированию?","edge.body":"Консультанты знают теорию. Импортёры застревают в бюрократии. Поскольку мы сами импортируем и растаможиваем собственный эксклюзивный бренд, мы владеем всей цепочкой, от цеха фабрики до розничной полки в Израиле.",
+    "edge.f1k":"Стандарты","edge.f1v":"Институт стандартов; министерства экономики, здравоохранения и связи","edge.f2k":"Таможня","edge.f2v":"Классификация, европейская реформа, выпуск","edge.f3k":"Полка","edge.f3v":"Торговые сети, private label, дистрибуция",
+    "process.title":"Как мы работаем","process.sub":"Четыре шага, именно в этом порядке. Первый избавляет остальные три от сюрпризов.",
+    "s1.t":"Сначала, проверка возможности и стандартов","s1.p":"Требования Института стандартов и министерств экономики, здравоохранения и связи, до заказа товара.","s2.t":"Таможенная классификация и файл товара","s2.p":"Точный код HS и полный технический файл с учётом европейской реформы.","s3.t":"Испытания и выпуск под контролем","s3.p":"Плотная работа с лабораториями, Институтом стандартов и таможенными брокерами до полного выпуска.","s4.t":"Маркетинг и дистрибуция в Израиле","s4.p":"Вывод на израильский рынок международных брендов на эксклюзивной основе.",
+    "founder.title":"Кто стоит за Tarshish","team.david.name":"Давид Пичадзе","team.david.role":"Основатель и генеральный директор","founder.name":"Михаэль Пичадзе","founder.role":"Консультант и руководитель операций","founder.bio":"Более пятнадцати лет в импорте и экспорте товаров в Израиль, после десяти лет руководства всей продуктовой линией Fox Home в Fox-Wizel, а также брендами Minene и другими брендами группы. Провёл множество продуктовых линий через сертификацию Института стандартов до уровня «Бриллиант» престижного знака стандарта. Работает на иврите, английском и русском.",
+    "founder.pr1":"Десять лет руководства продуктовой линией Fox Home, закупки, стандарты, логистика, розница","founder.pr2":"Продуктовые линии, доведённые до уровня «Бриллиант» престижного знака Института стандартов","founder.pr3":"Чёткое правило: мы не консультируем конкурентов бренда, который представляем",
+    "lead.title":"Быстрая проверка возможности импорта","lead.sub":"Для компаний и владельцев брендов. Частный импорт не обслуживаем.","lead.how":"Данные отправляются в WhatsApp (или по email), отвечаем в течение рабочего дня.","lead.tab1":"Я израильский импортёр (нужна консультация по стандартам / таможне)","lead.tab2":"Я международный бренд (ищу эксклюзивного представителя в Израиле)","lead.name":"Полное имя","lead.company":"Компания","lead.contact":"Телефон / email","lead.product":"Название товара или ссылка на каталог","lead.notes":"Комментарии","lead.submit":"Получить первичную оценку","lead.missing":"Укажите имя и способ связи.","lead.sent":"Открылось окно отправки. Если нет, напишите нам по email.",
+    "checker.title":"Быстрая проверка пути для вашего товара","checker.sub":"Выберите категорию и страну происхождения, чтобы увидеть вероятный регуляторный путь, что потребуется и сколько это обычно занимает. Только ориентир; каждый товар проверяется отдельно.","checker.q1":"Категория товара","checker.q2":"Откуда импорт","checker.run":"Показать путь","checker.pick":"Выберите категорию и происхождение, чтобы продолжить.","checker.toform":"В форму","checker.towa":"Спросить в WhatsApp","checker.note":"Только ориентир. Окончательный путь определяется после проверки самого товара.","checker.pathfor":"Вероятный путь для",
+    "cat.toys":"Игрушки и детские товары","cat.textile":"Текстиль и одежда","cat.home":"Домашний текстиль и мебель","cat.electric":"Электротовары и электроника","cat.cosmetics":"Косметика и уход","cat.cleaning":"Чистящие средства и бытовая химия","cat.kitchen":"Посуда и товары, контактирующие с пищей","cat.food":"Продукты питания и напитки","cat.building":"Стройматериалы, сантехника и инструменты","cat.other":"Другое / не уверен",
+    "origin.eu":"Евросоюз","origin.uk":"Великобритания","origin.us":"США","origin.cn":"Китай","origin.tr":"Турция","origin.other":"Другое",
+    "path.decl.name":"Декларативный трек (европейская реформа)","path.decl.desc":"Товар, отвечающий требованиям ЕС и продаваемый в ЕС, в большинстве категорий может ввозиться в Израиль по декларации импортёра и техническому файлу, без повторных лабораторных испытаний в Израиле.",
+    "path.test.name":"Испытания по стандарту (SII или признанная лаборатория)","path.test.desc":"Действует официальный израильский стандарт. Товар испытывается в SII или признанной лаборатории до выпуска, по образцам и техническому файлу. Имеющиеся протоколы испытаний сокращают путь.",
+    "path.licence.name":"Лицензирование министерства (плюс стандарты)","path.licence.desc":"Перед импортом требуется лицензия или регистрация в государственном органе на основании состава, этикеток и сертификатов производителя. Для товаров, продаваемых в ЕС, обычно действует сокращённый маршрут.",
+    "path.label.name":"Маркировка и документы (без испытаний)","path.label.desc":"Обычно нет официального стандарта, требующего испытаний. Нужны правильная маркировка на иврите, состав и документы производителя, точная таможенная классификация. Детские изделия могут требовать испытаний.",
+    "path.review.name":"Проверим вместе","path.review.desc":"Категория, неочевидная заранее. Пришлите название товара или ссылку, и мы вернёмся с точным путём.",
+    "result.authority":"Кто участвует","result.docs":"Что потребуется","result.time":"Обычный срок",
+    "time.decl":"от 2 до 4 недель","time.test":"от 6 до 10 недель","time.licence":"от 8 до 16 недель","time.label":"от 1 до 3 недель","time.review":"После первичной проверки",
+    "docs.decl":"Декларация соответствия ЕС, протоколы испытаний по стандарту ЕС, маркировка на иврите, классификация HS.","docs.test":"Образцы для лаборатории, технический файл, маркировка на иврите, классификация HS. Имеющиеся протоколы EN / IEC сокращают срок.","docs.licence":"Заявка на лицензию: состав или спецификация, этикетки, сертификаты производителя и свободной продажи, затем стандарты и маркировка.","docs.label":"Этикетки на иврите (состав, уход, импортёр), инвойс и спецификация производителя, классификация HS.","docs.review":"Название товара, ссылка на каталог, страна производства.",
+    "auth.toys":"SII (стандарт безопасности игрушек SI 562), Минэкономики","auth.textile":"Минэкономики (маркировка текстиля), SII для детских изделий","auth.home":"SII (мебель, матрасы, текстиль), Минэкономики","auth.electric":"SII (электробезопасность, SI 900 и другие), Минсвязи для беспроводных устройств","auth.cosmetics":"Минздрав (фармацевтическое управление, косметика)","auth.cleaning":"Минприроды и Минздрав (опасные вещества, препараты), SII","auth.kitchen":"SII (контакт с пищей), Минздрав","auth.food":"Минздрав, Национальная продовольственная служба (лицензия импортёра, регистрация производителя)","auth.building":"SII (официальные стандарты строительства и сантехники), Минэкономики","auth.other":"Зависит от товара",
+    "step.more":"Подробнее","step.less":"Свернуть",
+    "s1.who":"SII; министерства экономики, здравоохранения и связи; мы","s1.docs":"Спецификация товара, каталог, имеющиеся протоколы испытаний","s1.time":"от 3 до 5 рабочих дней","s2.who":"Таможенный брокер, Налоговое управление, мы","s2.docs":"Проформа-инвойс, состав или материалы, фото, технический файл","s2.time":"от 1 до 2 недель","s3.who":"Признанная лаборатория или SII, таможенный брокер, порт","s3.docs":"Образцы, декларации, итоговые этикетки","s3.time":"В зависимости от пути: от 2 до 10 недель","s4.who":"Закупщики сетей, дистрибьюторы, мы","s4.docs":"Прайс-лист, презентация бренда, первая партия","s4.time":"Постоянно",
+    "team.david.alt":"Давид Пичадзе, основатель и генеральный директор Tarshish Trade","team.david.bio":"Предприниматель и управленец с обширным деловым опытом в ведущих финтех-компаниях. Специализируется на стратегии, развитии бизнеса и управлении отношениями с клиентами; ведёт видение и рост компании, внедряя стандарты прозрачности, скорости и инноваций в процессы импорта и торговли.",
+    "founder.alt":"Михаэль Пичадзе, консультант и руководитель операций Tarshish Trade",
+    "legal.privacy":"Политика конфиденциальности","legal.accessibility":"Заявление о доступности","legal.terms":"Условия использования","legal.close":"Закрыть",
+    "a11y.open":"Доступность","a11y.title":"Меню доступности","a11y.close":"Закрыть","a11y.bigger":"Крупнее текст","a11y.smaller":"Мельче текст","a11y.contrast":"Высокий контраст","a11y.gray":"Оттенки серого","a11y.links":"Выделить ссылки","a11y.font":"Читаемый шрифт","a11y.motion":"Остановить анимацию","a11y.reset":"Сбросить настройки",
+    "cookie.text":"Сайт хранит на вашем устройстве только настройки (язык и параметры доступности) и не использует отслеживающие cookie. Подробности в политике конфиденциальности.","cookie.accept":"Понятно",
+    "lead.consent":"Я прочитал(а) и принимаю {privacy} и {terms} сайта","lead.consent.privacy":"политику конфиденциальности","lead.consent.terms":"условия использования","lead.consent.missing":"Перед отправкой подтвердите политику конфиденциальности и условия использования.",
+    "f.country":"Израиль",
+    "f.about":"Стандарты, таможня и эксклюзивное представительство в Израиле. Международные товары на полки Израиля, соответствующие, сертифицированные и проданные.","f.links":"Ссылки","f.contact":"Контакт","f.lang":"Язык","f.legal":"Информация на сайте носит общий характер и не является юридическим или таможенным заключением. Каждый товар оценивается отдельно."
+  },
+  it: {
+    "nav.menu":"Menu","nav.skip":"Vai al contenuto","nav.services":"Norme e dogana","nav.exclusive":"Rappresentanza esclusiva","nav.edge":"Il doppio vantaggio","nav.process":"Come lavoriamo","nav.founder":"Chi siamo","nav.contact":"Contatti","nav.cta":"Verifica di fattibilità import",
+    "hero.badge":"Regolamentazione • Dogana • Import esclusivo",
+    "hero.h1":"Prodotti internazionali sugli scaffali israeliani, senza sorprese in dogana o all'Istituto degli Standard.",
+    "hero.sub":"Consulenza e accompagnamento per gli importatori davanti all'Istituto degli Standard d'Israele e alla dogana, e rappresentanza esclusiva di marchi internazionali selezionati in Israele.",
+    "hero.cta1":"Verifica norme e dogana per il tuo prodotto","hero.cta2":"Il nostro marchio in esclusiva",
+    "card.title":"Fascicolo di sdoganamento (esempio)","card.k1":"Istituto degli Standard d'Israele (SII)","card.v1":"Approvato: percorso europeo","card.s1":"Approvato","card.k2":"Voce doganale (HS)","card.v2":"Classificata e verificata","card.s2":"Approvato","card.k3":"Etichettatura in ebraico e fascicolo tecnico","card.v3":"Completato","card.s3":"Approvato","card.k4":"Svincolo doganale","card.v4":"Pronto per la distribuzione in Israele","card.s4":"Svincolato","card.note":"Un'illustrazione del processo, non un software.",
+    "pillars.title":"Due mondi, una competenza","pillars.sub":"Consulenza agli importatori israeliani da un lato, rappresentanza esclusiva di produttori internazionali dall'altro. La stessa persona, la stessa filiera, dalla fabbrica all'estero allo scaffale in Israele.",
+    "p1.kicker":"Pilastro 1 · Importatori israeliani","p1.title":"Consulenza su norme, dogana e regolamentazione","p1.body":"Colli di bottiglia in porto, prove di laboratorio SII, la riforma europea dell'import (\"ciò che va bene per l'Europa va bene per Israele\", percorsi dichiarativi al posto delle prove), classificazione HS e fascicolo tecnico del prodotto. Verifichiamo prima dell'ordine, non quando il container è già fermo.",
+    "p1.b1":"Verifica di fattibilità e norme prima dell'ordine","p1.b2":"Classificazione HS e fascicolo tecnico","p1.b3":"Laboratori, SII e spedizionieri doganali, gestiti fino allo svincolo","p1.b4":"Ottenimento dei diritti di distribuzione esclusiva dal marchio estero",
+    "p2.kicker":"Pilastro 2 · Marchi internazionali","p2.title":"Import e distribuzione in esclusiva","p2.body":"Per il produttore che vuole un rappresentante in Israele, non una riga nel catalogo di un distributore. Vendiamo alle catene, gestiamo la regolamentazione e i clienti; voi spedite la merce.",
+    "show.kicker":"Marchio selezionato in rappresentanza esclusiva","show.soonName":"Annuncio in arrivo","show.soonDesc":"La nostra prima rappresentanza esclusiva di un produttore europeo è in fase di firma. I dettagli compariranno qui.",
+    "edge.title":"Perché lavorare con un importatore che è anche consulente regolatorio?","edge.body":"I consulenti conoscono la teoria. Gli importatori si bloccano nella burocrazia. Poiché importiamo e sdoganiamo noi stessi il nostro marchio in esclusiva, padroneggiamo l'intera filiera, dal reparto produttivo allo scaffale della distribuzione israeliana.",
+    "edge.f1k":"Norme","edge.f1v":"SII; ministeri dell'Economia, della Salute e delle Comunicazioni","edge.f2k":"Dogana","edge.f2v":"Classificazione, riforma europea, svincolo","edge.f3k":"Scaffale","edge.f3v":"Catene retail, private label, distribuzione",
+    "process.title":"Come lavoriamo","process.sub":"Quattro passi, in quest'ordine. Il primo risparmia sorprese agli altri tre.",
+    "s1.t":"Prima, verifica di fattibilità e norme","s1.p":"Requisiti SII e dei ministeri dell'Economia, della Salute e delle Comunicazioni, prima di ordinare la merce.","s2.t":"Classificazione doganale e fascicolo prodotto","s2.p":"La voce HS esatta e un fascicolo tecnico completo, allineato alla riforma europea.","s3.t":"Prove e svincolo, gestiti","s3.p":"Al fianco di laboratori, SII e spedizionieri doganali fino allo svincolo completo.","s4.t":"Marketing e distribuzione in Israele","s4.p":"Ingresso nel mercato israeliano per marchi internazionali in rappresentanza esclusiva.",
+    "founder.title":"Chi c'è dietro Tarshish","team.david.name":"David Pichadze","team.david.role":"Fondatore e CEO","founder.name":"Michael Pichadze","founder.role":"Consulente e responsabile operativo","founder.bio":"Oltre quindici anni di import ed export di merci in Israele, dopo un decennio alla guida dell'intera linea prodotti Fox Home in Fox-Wizel, insieme a Minene e ad altri marchi del gruppo. Ha portato numerose linee di prodotto attraverso la certificazione dell'Istituto degli Standard fino al livello Diamante del marchio di qualità prestigioso SII. Lavora in ebraico, inglese e russo.",
+    "founder.pr1":"Un decennio alla guida della linea prodotti Fox Home, approvvigionamento, norme, logistica, retail","founder.pr2":"Linee di prodotto portate al livello Diamante del marchio prestigioso SII","founder.pr3":"Una regola chiara: non consultiamo mai un concorrente di un marchio che rappresentiamo",
+    "lead.title":"Verifica rapida di fattibilità import","lead.sub":"Per aziende e titolari di marchi. Non gestiamo importazioni private.","lead.how":"I dati vengono inviati via WhatsApp (o email), rispondiamo entro un giorno lavorativo.","lead.tab1":"Sono un importatore israeliano (consulenza norme / dogana)","lead.tab2":"Sono un marchio internazionale (cerco un rappresentante esclusivo in Israele)","lead.name":"Nome e cognome","lead.company":"Azienda","lead.contact":"Telefono / email","lead.product":"Nome del prodotto o link al catalogo","lead.notes":"Note","lead.submit":"Richiedi una valutazione iniziale","lead.missing":"Inserisci nome e un recapito.","lead.sent":"Si è aperta una finestra di invio. Se non si è aperta, scrivici via email.",
+    "checker.title":"Verifica rapida del percorso per il tuo prodotto","checker.sub":"Scegli categoria e origine per vedere il percorso regolatorio probabile, cosa serve e quanto richiede di solito. Solo indicativo; ogni prodotto viene valutato singolarmente.","checker.q1":"Categoria di prodotto","checker.q2":"Importato da","checker.run":"Mostra il percorso","checker.pick":"Scegli categoria e origine per continuare.","checker.toform":"Passa al modulo","checker.towa":"Chiedi su WhatsApp","checker.note":"Solo indicativo. Il percorso definitivo si stabilisce dopo aver visto il prodotto.","checker.pathfor":"Percorso probabile per",
+    "cat.toys":"Giocattoli e prodotti per bambini","cat.textile":"Tessile e abbigliamento","cat.home":"Tessile per la casa e arredo","cat.electric":"Elettrico ed elettronica","cat.cosmetics":"Cosmetici e cura della persona","cat.cleaning":"Pulizia e chimica domestica","cat.kitchen":"Casalinghi e materiali a contatto con alimenti","cat.food":"Alimenti e bevande","cat.building":"Edilizia, idraulica e utensili","cat.other":"Altro / non so",
+    "origin.eu":"Unione Europea","origin.uk":"Regno Unito","origin.us":"Stati Uniti","origin.cn":"Cina","origin.tr":"Turchia","origin.other":"Altro",
+    "path.decl.name":"Percorso dichiarativo (riforma europea)","path.decl.desc":"Un prodotto conforme ai requisiti UE e venduto nell'UE può, nella maggior parte delle categorie, entrare in Israele con una dichiarazione dell'importatore e un fascicolo tecnico, senza ripetere le prove di laboratorio in Israele.",
+    "path.test.name":"Prove di conformità (SII o laboratorio riconosciuto)","path.test.desc":"Si applica una norma israeliana ufficiale. Il prodotto viene provato presso l'SII o un laboratorio riconosciuto prima dello svincolo, su campioni e fascicolo tecnico. Rapporti di prova esistenti abbreviano il percorso.",
+    "path.licence.name":"Autorizzazione ministeriale (oltre alle norme)","path.licence.desc":"Serve una licenza o registrazione presso un'autorità pubblica prima dell'importazione, sulla base di composizione, etichette e certificati del produttore. I prodotti venduti nell'UE hanno di norma un iter abbreviato.",
+    "path.label.name":"Etichettatura e documenti (senza prove)","path.label.desc":"Di solito nessuna norma ufficiale che richieda prove. Servono etichettatura corretta in ebraico, composizione e documenti del produttore, e una classificazione doganale esatta. Gli articoli per bambini possono richiedere prove.",
+    "path.review.name":"Verifichiamo insieme","path.review.desc":"Una categoria non chiara a priori. Inviaci nome o link del prodotto e torniamo con il percorso esatto.",
+    "result.authority":"Chi è coinvolto","result.docs":"Cosa serve","result.time":"Tempo tipico",
+    "time.decl":"da 2 a 4 settimane","time.test":"da 6 a 10 settimane","time.licence":"da 8 a 16 settimane","time.label":"da 1 a 3 settimane","time.review":"Dopo una prima verifica",
+    "docs.decl":"Dichiarazione di conformità UE, rapporti di prova alla norma UE, etichettatura in ebraico, classificazione HS.","docs.test":"Campioni per il laboratorio, fascicolo tecnico, etichettatura in ebraico, classificazione HS. Rapporti EN / IEC esistenti abbreviano i tempi.","docs.licence":"Domanda di licenza: composizione o specifiche, etichette, certificati del produttore e di libera vendita, poi norme ed etichettatura.","docs.label":"Etichette in ebraico (composizione, cura, importatore), fattura e specifiche del produttore, classificazione HS.","docs.review":"Nome del prodotto, link al catalogo, paese di produzione.",
+    "auth.toys":"SII (norma sulla sicurezza dei giocattoli SI 562), Ministero dell'Economia","auth.textile":"Ministero dell'Economia (etichettatura tessile), SII per gli articoli per bambini","auth.home":"SII (arredo, materassi, tessile), Ministero dell'Economia","auth.electric":"SII (sicurezza elettrica, SI 900 e altre), Ministero delle Comunicazioni per i dispositivi wireless","auth.cosmetics":"Ministero della Salute (divisione farmaceutica, cosmetici)","auth.cleaning":"Ministero dell'Ambiente e Ministero della Salute (sostanze pericolose, preparati), SII","auth.kitchen":"SII (contatto con alimenti), Ministero della Salute","auth.food":"Ministero della Salute, Servizio nazionale alimenti (licenza importatore, registrazione produttore)","auth.building":"SII (norme ufficiali per edilizia e idraulica), Ministero dell'Economia","auth.other":"Dipende dal prodotto",
+    "step.more":"Dettagli","step.less":"Chiudi",
+    "s1.who":"SII; ministeri dell'Economia, della Salute e delle Comunicazioni; noi","s1.docs":"Specifiche del prodotto, catalogo, rapporti di prova esistenti","s1.time":"da 3 a 5 giorni lavorativi","s2.who":"Spedizioniere doganale, Agenzia delle Entrate, noi","s2.docs":"Fattura pro forma, composizione o materiali, foto, fascicolo tecnico","s2.time":"da 1 a 2 settimane","s3.who":"Laboratorio riconosciuto o SII, spedizioniere doganale, porto","s3.docs":"Campioni, dichiarazioni, etichette definitive","s3.time":"Secondo il percorso: da 2 a 10 settimane","s4.who":"Buyer delle catene, distributori, noi","s4.docs":"Listino, presentazione del marchio, primo stock","s4.time":"Continuativo",
+    "team.david.alt":"David Pichadze, fondatore e CEO di Tarshish Trade","team.david.bio":"Imprenditore e manager con ampia esperienza in aziende leader del fintech. Specializzato in strategia, sviluppo commerciale e gestione delle relazioni con i clienti, guida la visione e la crescita dell'azienda introducendo standard di trasparenza, rapidità e innovazione nei processi di import e commercio.",
+    "founder.alt":"Michael Pichadze, consulente e responsabile operativo di Tarshish Trade",
+    "legal.privacy":"Informativa sulla privacy","legal.accessibility":"Dichiarazione di accessibilità","legal.terms":"Condizioni d'uso","legal.close":"Chiudi",
+    "a11y.open":"Accessibilità","a11y.title":"Menu accessibilità","a11y.close":"Chiudi","a11y.bigger":"Testo più grande","a11y.smaller":"Testo più piccolo","a11y.contrast":"Alto contrasto","a11y.gray":"Scala di grigi","a11y.links":"Evidenzia link","a11y.font":"Carattere leggibile","a11y.motion":"Ferma animazioni","a11y.reset":"Ripristina impostazioni",
+    "cookie.text":"Questo sito salva sul tuo dispositivo solo le preferenze (lingua e impostazioni di accessibilità) e non usa cookie di tracciamento. Dettagli nell'informativa sulla privacy.","cookie.accept":"Ho capito",
+    "lead.consent":"Ho letto e accetto l'{privacy} e le {terms} del sito","lead.consent.privacy":"informativa sulla privacy","lead.consent.terms":"condizioni d'uso","lead.consent.missing":"Prima di inviare, accetta l'informativa sulla privacy e le condizioni d'uso.",
+    "f.country":"Israele",
+    "f.about":"Norme, dogana e rappresentanza esclusiva in Israele. Prodotti internazionali sugli scaffali israeliani, conformi, certificati e venduti.","f.links":"Link rapidi","f.contact":"Contatti","f.lang":"Lingua","f.legal":"Le informazioni di questo sito sono generali e non costituiscono un parere legale o doganale. Ogni prodotto viene valutato singolarmente."
+  }};
+  var SUPPORTED = ["he","en","ru","it"];
+  var RTL = {he:true};
+
+  function initialLang(){
+    var u = new URLSearchParams(location.search).get("lang");
+    if (SUPPORTED.indexOf(u) >= 0) return u;
+    try { var s = localStorage.getItem("tt-lang"); if (SUPPORTED.indexOf(s) >= 0) return s; } catch(e){}
+    var langs = navigator.languages || [navigator.language || "he"];
+    for (var i = 0; i < langs.length; i++) { var c = String(langs[i]).slice(0,2).toLowerCase(); if (SUPPORTED.indexOf(c) >= 0) return c; }
+    return "he";
+  }
+  function apply(lang){
+    var d = T[lang] || T.he;
+    document.documentElement.lang = lang;
+    document.documentElement.dir = RTL[lang] ? "rtl" : "ltr";
+    var els = document.querySelectorAll("[data-i18n]");
+    for (var i = 0; i < els.length; i++) { var k = els[i].getAttribute("data-i18n"); if (d[k] != null) els[i].textContent = d[k]; }
+    var name = document.getElementById("showName"), desc = document.getElementById("showDesc");
+    var nm = SHOWCASE_PUBLIC ? d["show.name"] : d["show.soonName"], ds = SHOWCASE_PUBLIC ? d["show.desc"] : d["show.soonDesc"];
+    name.firstChild.nodeValue = nm; desc.textContent = ds;
+    var bs = document.querySelectorAll("[data-lang]");
+    for (var j = 0; j < bs.length; j++) bs[j].setAttribute("aria-pressed", bs[j].getAttribute("data-lang") === lang ? "true" : "false");
+    document.title = lang === "he" ? "תרשיש · Tarshish Trade" : "Tarshish Trade · תרשיש";
+    try { localStorage.setItem("tt-lang", lang); } catch(e){}
+    current = lang;
+  }
+  var current = initialLang();
+  apply(current);
+  (function(){ var ims = document.querySelectorAll("[data-i18n-alt]"); for (var ai = 0; ai < ims.length; ai++) ims[ai].alt = T[current][ims[ai].getAttribute("data-i18n-alt")]; })();
+  document.addEventListener("click", function(ev){
+    var b = ev.target.closest && ev.target.closest("[data-lang]");
+    if (b) { apply(b.getAttribute("data-lang")); }
+  });
+
+
+  // ---- feasibility checker ----
+  function scrollMode(){ return (document.documentElement.classList.contains("a11y-nomotion") || (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) ? "auto" : "smooth"; }
+  var CATS = ["toys","textile","home","electric","cosmetics","cleaning","kitchen","food","building","other"];
+  var ORIGINS = ["eu","uk","us","cn","tr","other"];
+  var PATHS = { toys:{eu:"decl",other:"test"}, textile:{eu:"label",other:"label"}, home:{eu:"decl",other:"test"}, electric:{eu:"decl",other:"test"},
+                cosmetics:{eu:"licence",other:"licence"}, cleaning:{eu:"licence",other:"licence"}, kitchen:{eu:"decl",other:"test"},
+                food:{eu:"licence",other:"licence"}, building:{eu:"decl",other:"test"}, other:{eu:"review",other:"review"} };
+  var pick = {cat:null, origin:null}, shown = false;
+  function chips(id, keys, prefix, field){
+    var box = document.getElementById(id);
+    for (var i = 0; i < keys.length; i++) {
+      var b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.setAttribute("aria-pressed","false");
+      b.setAttribute("data-i18n", prefix + keys[i]); b.setAttribute("data-val", keys[i]); b.textContent = T[current][prefix + keys[i]];
+      b.addEventListener("click", function(){ pick[field] = this.getAttribute("data-val"); var all = box.querySelectorAll(".chip");
+        for (var j = 0; j < all.length; j++) all[j].setAttribute("aria-pressed", all[j] === this ? "true" : "false"); if (shown) render(); });
+      box.appendChild(b);
+    }
+  }
+  chips("catChips", CATS, "cat.", "cat"); chips("originChips", ORIGINS, "origin.", "origin");
+  function pathFor(){ var p = PATHS[pick.cat]; return pick.origin === "eu" ? p.eu : p.other; }
+  function render(){
+    var d = T[current], hint = document.getElementById("checkHint"), res = document.getElementById("result");
+    if (!pick.cat || !pick.origin) { hint.textContent = d["checker.pick"]; res.hidden = true; shown = false; return; }
+    var p = pathFor(); hint.textContent = "";
+    document.getElementById("resPathKicker").textContent = d["checker.pathfor"] + " " + d["cat." + pick.cat] + " · " + d["origin." + pick.origin];
+    document.getElementById("resName").textContent = d["path." + p + ".name"];
+    document.getElementById("resDesc").textContent = d["path." + p + ".desc"];
+    document.getElementById("resAuth").textContent = d["auth." + pick.cat];
+    document.getElementById("resDocs").textContent = d["docs." + p];
+    document.getElementById("resTime").textContent = d["time." + p];
+    var summary = d["cat." + pick.cat] + " · " + d["origin." + pick.origin] + " · " + d["path." + p + ".name"];
+    document.getElementById("toWa").href = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent("Tarshish Trade: " + summary);
+    res.hidden = false; shown = true;
+    if (!render.scrolled) { res.scrollIntoView({behavior:scrollMode(), block:"nearest"}); render.scrolled = true; }
+  }
+  document.getElementById("runCheck").addEventListener("click", render);
+  document.getElementById("toForm").addEventListener("click", function(){
+    var d = T[current], f = document.getElementById("leadForm"), p = pathFor();
+    f.elements.product.value = d["cat." + pick.cat] + " · " + d["origin." + pick.origin];
+    f.elements.notes.value = d["path." + p + ".name"];
+    document.getElementById("contact").scrollIntoView({behavior:scrollMode()}); setTimeout(function(){ f.elements.name.focus(); }, 500);
+  });
+  // ---- timeline details ----
+  var mores = document.querySelectorAll(".step .more");
+  for (var m = 0; m < mores.length; m++) mores[m].addEventListener("click", function(){
+    var open = this.getAttribute("aria-expanded") !== "true", det = this.nextElementSibling;
+    this.setAttribute("aria-expanded", open ? "true" : "false"); det.hidden = !open; this.textContent = T[current][open ? "step.less" : "step.more"];
+  });
+  // re-render the checker and the step buttons when the language changes
+  var _apply = apply;
+  apply = function(lang){ _apply(lang); var ims = document.querySelectorAll("[data-i18n-alt]"); for (var ai = 0; ai < ims.length; ai++) ims[ai].alt = T[current][ims[ai].getAttribute("data-i18n-alt")]; if (shown) render(); else { var h = document.getElementById("checkHint"); if (h.textContent) h.textContent = T[current]["checker.pick"]; }
+    for (var m2 = 0; m2 < mores.length; m2++) mores[m2].textContent = T[current][mores[m2].getAttribute("aria-expanded") === "true" ? "step.less" : "step.more"]; };
+
+
+  // ---- legal pages (in-page dialogs, hash routes #privacy #accessibility #terms) ----
+  var LEGAL = {
+  he: {
+    privacy: '<h3 id="legalTitle">מדיניות פרטיות</h3><p>עודכן לאחרונה: {updated}. מדיניות זו מסבירה אילו נתונים אישיים אוספת תרשיש סחר ("החברה", "אנחנו") באתר tarshishtrade.com, לשם מה, ומהן זכויותיכם לפי חוק הגנת הפרטיות, התשמ"א-1981, לרבות תיקון 13.</p><h4>אילו נתונים נאספים</h4><p>רק מה שאתם מוסרים בטופס יצירת הקשר: שם, שם חברה, טלפון או דוא"ל, שם מוצר או קישור, והערות. מסירת הפרטים אינה חובה על פי דין והיא תלויה ברצונכם; בלעדיהם לא נוכל להשיב לפנייה. הטופס מעביר את הפרטים אלינו בוואטסאפ או בדוא"ל. באתר אין רישום משתמשים, תשלומים או חנות.</p><h4>לשם מה משתמשים בנתונים</h4><p>כדי להשיב לפנייה ולספק את השירות שביקשתם. לא נשלח דיוור שיווקי בלי הסכמה מפורשת. לא נמכור ולא נשכיר את הנתונים לצד שלישי. ייתכן שנשתף אותם עם ספקים שמסייעים לנו לפעול (למשל ספק הדוא"ל), והם מחויבים לסודיות ולדין. פנייה בוואטסאפ כפופה גם לתנאים ולמדיניות הפרטיות של WhatsApp.</p><h4>עוגיות וסטטיסטיקה</h4><p>האתר שומר במכשיר שלכם העדפות בלבד (שפה, הגדרות נגישות ואישור ההודעה על עוגיות) באמצעות localStorage. איננו משתמשים כיום בכלי סטטיסטיקה או פרסום. האתר מתארח ב-GitHub Pages והגופנים נטענים מ-Google Fonts; כמו בכל אתר, ספקים אלה (GitHub ו-Google, ארה"ב) מקבלים נתונים טכניים כגון כתובת ה-IP שלכם כדי להציג את הדפים. אם נוסיף כלי סטטיסטיקה, נעדכן מדיניות זו לפני כן.</p><h4>אבטחה ושמירה</h4><p>הפרטים נשמרים בתיבת הדוא"ל ובוואטסאפ העסקי שלנו ומוגנים באמצעי אבטחה סבירים. הם נשמרים למשך הזמן הנדרש לצורך מתן השירות ובהתאם להוראות הדין.</p><h4>זכויותיכם</h4><p>לפי חוק הגנת הפרטיות אתם רשאים לעיין בנתונים שנאספו עליכם ולבקש לתקן אותם. בנוסף, תוכלו לבקש בכל עת למחוק אותם או לבטל את הסכמתכם, ונעשה זאת אלא אם הדין מחייב אותנו לשמור אותם. פנו אלינו לכתובת {email} ונשיב בהקדם, ולכל המאוחר בתוך המועד הקבוע בדין. עומדת לכם גם זכות לפנות לרשות להגנת הפרטיות.</p><h4>בעלת האתר</h4><p>תרשיש סחר (Tarshish Trade), ישראל · {email}</p>',
+    accessibility: '<h3 id="legalTitle">הצהרת נגישות</h3><p>תרשיש סחר רואה חשיבות במתן שירות שוויוני לכלל הציבור, ובכלל זה אנשים עם מוגבלות. אנחנו פועלים להנגיש את האתר בהתאם לתקנות שוויון זכויות לאנשים עם מוגבלות (התאמות נגישות לשירות), התשע"ג-2013, ולתקן הישראלי ת"י 5568 ברמה AA, המבוסס על הנחיות WCAG 2.0.</p><h4>מה הותאם באתר</h4><ul><li>תפריט נגישות צף: הגדלת טקסט, ניגודיות גבוהה, גווני אפור, הדגשת קישורים, גופן קריא ועצירת אנימציות. ההגדרות נשמרות במכשיר.</li><li>ניווט מלא במקלדת, קישור "דילוג לתוכן" וסימון מיקוד ברור.</li><li>מבנה סמנטי: כותרות, תוויות לשדות הטופס, טקסט חלופי לתמונות ותוויות ARIA לכפתורים, לתמיכה בקוראי מסך.</li><li>ניגודיות צבעים העומדת בדרישות AA לטקסט.</li><li>תצוגה מותאמת למסכים קטנים והגדלת טקסט בלי אובדן תוכן.</li><li>ללא תוכן מהבהב; האנימציות מכבדות את העדפת "הפחתת תנועה" של המכשיר.</li></ul><h4>סייגים</h4><p>ייתכן שחלקים מסוימים עדיין אינם מונגשים במלואם. אם נתקלתם בקושי, נשמח לדעת ונתקן בהקדם.</p><h4>בדיקת נגישות</h4><p>{audit} ההצהרה עודכנה בתאריך {updated}.</p><h4>רכז/ת הנגישות</h4><p>הפנייה לרכז/ת הנגישות מתבצעת בדוא"ל בלבד, בכתובת {email}. נשיב בהקדם האפשרי.</p>',
+    terms: '<h3 id="legalTitle">תנאי שימוש</h3><p>השימוש באתר tarshishtrade.com ("האתר") של תרשיש סחר ("החברה") כפוף לתנאים אלה. גלישה באתר מהווה הסכמה להם.</p><h4>מידע בלבד</h4><p>התוכן באתר, לרבות בודק המסלול, הוא מידע כללי להתמצאות בלבד. הוא אינו ייעוץ משפטי, מכסי או רגולטורי, אינו הצעה מסחרית מחייבת ואינו תחליף לבדיקה פרטנית של המוצר. כל התקשרות תיעשה בהסכם נפרד ובכתב.</p><h4>קניין רוחני</h4><p>השם תרשיש סחר / Tarshish Trade, סמל החברה, הטקסטים, העיצוב והתמונות באתר הם קניינה של החברה או של בעלי הזכויות בהם. אין להעתיק, לפרסם או לעשות בהם שימוש מסחרי בלי אישור בכתב.</p><h4>הגבלת אחריות</h4><p>האתר מוצע כמות שהוא. במידה המותרת בדין, החברה אינה אחראית לנזק ישיר או עקיף הנובע מהסתמכות על המידע באתר, מהפסקת פעילותו או מתקלות בו. קישורים לאתרים חיצוניים אינם באחריותנו.</p><h4>דין וסמכות שיפוט</h4><p>על תנאים אלה יחול הדין הישראלי, וסמכות השיפוט הבלעדית נתונה לבתי המשפט המוסמכים בישראל.</p><h4>שינויים</h4><p>החברה רשאית לעדכן את התנאים מעת לעת; הנוסח המחייב הוא זה המפורסם באתר. עודכן לאחרונה: {updated}.</p>'
+  },
+  en: {
+    privacy: '<h3 id="legalTitle">Privacy Policy</h3><p>Last updated: {updated}. This policy explains what personal data Tarshish Trade ("the company", "we") collects on tarshishtrade.com, why, and your rights under the Israeli Protection of Privacy Law, 1981, including Amendment 13.</p><h4>What we collect</h4><p>Only what you enter in the contact form: name, company, phone or email, product name or link, and notes. You are under no legal obligation to provide these details; it is your choice, and without them we cannot reply to your enquiry. The form passes these details to us by WhatsApp or email. The site has no user accounts, payments or shop.</p><h4>Why we use it</h4><p>To answer your enquiry and provide the service you asked for. We send no marketing without your explicit consent. We do not sell or rent your data to third parties. We may share it with suppliers that help us operate (for example our email provider), who are bound by confidentiality and by law. Enquiries sent through WhatsApp are also subject to WhatsApp\'s own terms and privacy policy.</p><h4>Cookies and analytics</h4><p>The site stores only preferences on your device (language, accessibility settings and your acknowledgement of the cookie notice) using localStorage. We do not currently use analytics or advertising tools. The site is hosted on GitHub Pages and its fonts are loaded from Google Fonts; as with any website, these providers (GitHub and Google, United States) receive technical data such as your IP address in order to deliver the pages. If we add an analytics tool, we will update this policy first.</p><h4>Security and retention</h4><p>Your details are kept in our business mailbox and WhatsApp and protected by reasonable security measures. They are retained for as long as needed to provide the service and in accordance with the law.</p><h4>Your rights</h4><p>Under the Protection of Privacy Law you may review the data held about you and ask us to correct it. You may also ask us at any time to delete it or withdraw your consent, and we will do so unless the law requires us to keep it. Write to {email}; we reply promptly and no later than the period set by law. You may also contact the Privacy Protection Authority.</p><h4>Site owner</h4><p>Tarshish Trade (תרשיש סחר), Israel · {email}</p>',
+    accessibility: '<h3 id="legalTitle">Accessibility Statement</h3><p>Tarshish Trade is committed to serving everyone equally, including people with disabilities. We work to make this site accessible in line with the Israeli Equal Rights for Persons with Disabilities Regulations (Service Accessibility Adjustments), 2013, and Israeli Standard SI 5568 at level AA, which is based on WCAG 2.0.</p><h4>What is in place</h4><ul><li>A floating accessibility menu: larger text, high contrast, grayscale, highlighted links, a readable font and a stop for animations. Settings are saved on your device.</li><li>Full keyboard navigation, a skip link and a visible focus indicator.</li><li>Semantic structure: headings, labels on every form field, alt text on images and ARIA labels on buttons, for screen readers.</li><li>Colour contrast that meets AA for text.</li><li>Responsive layout for small screens and text enlargement without loss of content.</li><li>No flashing content; animations respect the device\'s reduced-motion preference.</li></ul><h4>Limitations</h4><p>Some parts may not yet be fully accessible. If you run into a difficulty, tell us and we will fix it promptly.</p><h4>Accessibility audit</h4><p>{audit} This statement was updated on {updated}.</p><h4>Accessibility coordinator</h4><p>The accessibility coordinator can be reached by email only, at {email}. We reply as soon as possible.</p>',
+    terms: '<h3 id="legalTitle">Terms of Use</h3><p>Use of tarshishtrade.com ("the site") by Tarshish Trade ("the company") is subject to these terms. Browsing the site means you accept them.</p><h4>Information only</h4><p>The content on this site, including the path checker, is general information for orientation only. It is not legal, customs or regulatory advice, not a binding commercial offer, and no substitute for an assessment of the specific product. Any engagement is made under a separate written agreement.</p><h4>Intellectual property</h4><p>The name Tarshish Trade / תרשיש סחר, the company mark, and the texts, design and images on the site belong to the company or to their rights holders. They may not be copied, published or used commercially without written permission.</p><h4>Limitation of liability</h4><p>The site is provided as is. To the extent permitted by law, the company is not liable for direct or indirect damage arising from reliance on the site\'s information, from its interruption or from faults in it. Links to external sites are not our responsibility.</p><h4>Law and jurisdiction</h4><p>These terms are governed by Israeli law; the competent courts in Israel have exclusive jurisdiction.</p><h4>Changes</h4><p>The company may update these terms from time to time; the binding version is the one published on the site. Last updated: {updated}.</p>'
+  },
+  ru: {
+    privacy: '<h3 id="legalTitle">Политика конфиденциальности</h3><p>Обновлено: {updated}. Эта политика объясняет, какие персональные данные Tarshish Trade («компания», «мы») собирает на сайте tarshishtrade.com, зачем, и каковы ваши права по израильскому Закону о защите частной жизни 1981 года, включая Поправку 13.</p><h4>Какие данные мы собираем</h4><p>Только то, что вы указываете в форме обратной связи: имя, компания, телефон или email, название товара или ссылка, комментарии. Вы не обязаны по закону предоставлять эти данные; это ваш выбор, но без них мы не сможем ответить на обращение. Форма передаёт данные нам через WhatsApp или email. На сайте нет регистрации пользователей, платежей или магазина.</p><h4>Для чего используются данные</h4><p>Чтобы ответить на ваше обращение и оказать запрошенную услугу. Мы не рассылаем рекламу без вашего явного согласия. Мы не продаём и не передаём данные в аренду третьим лицам. Мы можем передавать их поставщикам, которые помогают нам работать (например, почтовому провайдеру); они связаны обязательствами конфиденциальности и законом. Обращения через WhatsApp также регулируются условиями и политикой конфиденциальности WhatsApp.</p><h4>Cookie и статистика</h4><p>Сайт хранит на вашем устройстве только настройки (язык, параметры доступности и подтверждение уведомления о cookie) через localStorage. Сейчас мы не используем инструменты аналитики или рекламы. Сайт размещён на GitHub Pages, а шрифты загружаются из Google Fonts; как и на любом сайте, эти провайдеры (GitHub и Google, США) получают технические данные, например ваш IP-адрес, чтобы показать страницы. Если мы добавим инструмент аналитики, мы заранее обновим эту политику.</p><h4>Безопасность и хранение</h4><p>Данные хранятся в нашей рабочей почте и WhatsApp и защищены разумными мерами безопасности. Они хранятся столько, сколько необходимо для оказания услуги, и в соответствии с требованиями закона.</p><h4>Ваши права</h4><p>По Закону о защите частной жизни вы вправе ознакомиться с данными о вас и потребовать их исправления. Вы также можете в любое время попросить удалить их или отозвать согласие, и мы сделаем это, если закон не обязывает нас их хранить. Напишите на {email}; мы ответим оперативно и не позднее срока, установленного законом. Вы также можете обратиться в Управление по защите частной жизни.</p><h4>Владелец сайта</h4><p>Tarshish Trade (תרשיש סחר), Израиль · {email}</p>',
+    accessibility: '<h3 id="legalTitle">Заявление о доступности</h3><p>Tarshish Trade считает важным равное обслуживание всех, включая людей с инвалидностью. Мы работаем над доступностью сайта в соответствии с израильскими Правилами о равных правах людей с инвалидностью (адаптация доступности услуг) 2013 года и израильским стандартом SI 5568 уровня AA, основанным на WCAG 2.0.</p><h4>Что реализовано</h4><ul><li>Плавающее меню доступности: крупнее текст, высокий контраст, оттенки серого, выделение ссылок, читаемый шрифт и остановка анимации. Настройки сохраняются на устройстве.</li><li>Полная навигация с клавиатуры, ссылка «перейти к содержанию» и видимый индикатор фокуса.</li><li>Семантическая структура: заголовки, подписи ко всем полям формы, альтернативный текст изображений и ARIA-подписи кнопок для программ чтения с экрана.</li><li>Цветовой контраст текста уровня AA.</li><li>Адаптивная вёрстка для небольших экранов и увеличение текста без потери содержания.</li><li>Нет мигающего контента; анимации учитывают настройку «уменьшить движение».</li></ul><h4>Ограничения</h4><p>Некоторые части могут быть ещё не полностью доступны. Если вы столкнулись с трудностью, сообщите нам, и мы оперативно исправим.</p><h4>Проверка доступности</h4><p>{audit} Заявление обновлено {updated}.</p><h4>Координатор по доступности</h4><p>Связаться с координатором по доступности можно только по электронной почте: {email}. Мы ответим в кратчайшие сроки.</p>',
+    terms: '<h3 id="legalTitle">Условия использования</h3><p>Использование сайта tarshishtrade.com («сайт») компании Tarshish Trade («компания») регулируется этими условиями. Просмотр сайта означает ваше согласие с ними.</p><h4>Только информация</h4><p>Содержание сайта, включая проверку пути, является общей информацией для ориентира. Это не юридическая, таможенная или регуляторная консультация, не обязывающее коммерческое предложение и не замена проверки конкретного товара. Любое сотрудничество оформляется отдельным письменным соглашением.</p><h4>Интеллектуальная собственность</h4><p>Название Tarshish Trade / תרשיש סחר, знак компании, тексты, дизайн и изображения сайта принадлежат компании или правообладателям. Их нельзя копировать, публиковать или использовать в коммерческих целях без письменного разрешения.</p><h4>Ограничение ответственности</h4><p>Сайт предоставляется «как есть». В пределах, допускаемых законом, компания не несёт ответственности за прямой или косвенный ущерб из-за использования информации сайта, его недоступности или неисправностей. Ссылки на внешние сайты не входят в нашу ответственность.</p><h4>Право и подсудность</h4><p>Эти условия регулируются законодательством Израиля; исключительная подсудность принадлежит компетентным судам Израиля.</p><h4>Изменения</h4><p>Компания может время от времени обновлять условия; действует версия, опубликованная на сайте. Обновлено: {updated}.</p>'
+  },
+  it: {
+    privacy: '<h3 id="legalTitle">Informativa sulla privacy</h3><p>Ultimo aggiornamento: {updated}. Questa informativa spiega quali dati personali Tarshish Trade ("la società", "noi") raccoglie su tarshishtrade.com, perché, e quali sono i vostri diritti secondo la legge israeliana sulla protezione della privacy del 1981, incluso l\'emendamento 13.</p><h4>Quali dati raccogliamo</h4><p>Solo ciò che inserite nel modulo di contatto: nome, azienda, telefono o email, nome del prodotto o link, note. Non avete alcun obbligo di legge di fornire questi dati; è una vostra scelta, ma senza di essi non possiamo rispondere alla richiesta. Il modulo ci trasmette i dati via WhatsApp o email. Il sito non ha account utente, pagamenti o negozio.</p><h4>Perché li usiamo</h4><p>Per rispondere alla vostra richiesta e fornire il servizio chiesto. Nessuna comunicazione commerciale senza consenso esplicito. Non vendiamo né cediamo i dati a terzi. Possiamo condividerli con fornitori che ci aiutano a operare (per esempio il provider email), vincolati alla riservatezza e alla legge. Le richieste inviate tramite WhatsApp sono soggette anche ai termini e all\'informativa privacy di WhatsApp.</p><h4>Cookie e statistiche</h4><p>Il sito salva sul vostro dispositivo solo preferenze (lingua, impostazioni di accessibilità e presa visione dell\'avviso sui cookie) tramite localStorage. Al momento non usiamo strumenti di analisi o di pubblicità. Il sito è ospitato su GitHub Pages e i caratteri sono caricati da Google Fonts; come per ogni sito, questi fornitori (GitHub e Google, Stati Uniti) ricevono dati tecnici come il vostro indirizzo IP per mostrare le pagine. Se aggiungeremo uno strumento di analisi, aggiorneremo prima questa informativa.</p><h4>Sicurezza e conservazione</h4><p>I dati sono conservati nella nostra casella email e in WhatsApp aziendale, protetti con misure ragionevoli. Sono conservati per il tempo necessario a fornire il servizio e in conformità alla legge.</p><h4>I vostri diritti</h4><p>Secondo la legge sulla protezione della privacy potete consultare i dati che vi riguardano e chiederne la correzione. Potete inoltre chiederci in qualsiasi momento di cancellarli o revocare il consenso, e lo faremo salvo che la legge ci imponga di conservarli. Scrivete a {email}; rispondiamo tempestivamente e comunque entro i termini di legge. Potete anche rivolgervi all\'Autorità israeliana per la protezione della privacy.</p><h4>Titolare del sito</h4><p>Tarshish Trade (תרשיש סחר), Israele · {email}</p>',
+    accessibility: '<h3 id="legalTitle">Dichiarazione di accessibilità</h3><p>Tarshish Trade tiene a un servizio uguale per tutti, incluse le persone con disabilità. Lavoriamo perché il sito sia accessibile secondo il regolamento israeliano sulla parità di diritti delle persone con disabilità (adeguamenti di accessibilità del servizio) del 2013 e lo standard israeliano SI 5568 livello AA, basato sulle WCAG 2.0.</p><h4>Cosa è stato fatto</h4><ul><li>Un menu di accessibilità flottante: testo più grande, alto contrasto, scala di grigi, link evidenziati, carattere leggibile e stop alle animazioni. Le impostazioni restano sul dispositivo.</li><li>Navigazione completa da tastiera, link "salta al contenuto" e indicatore di focus visibile.</li><li>Struttura semantica: intestazioni, etichette su ogni campo del modulo, testo alternativo per le immagini ed etichette ARIA sui pulsanti, per i lettori di schermo.</li><li>Contrasto cromatico del testo conforme al livello AA.</li><li>Layout adattivo per schermi piccoli e ingrandimento del testo senza perdita di contenuto.</li><li>Nessun contenuto lampeggiante; le animazioni rispettano la preferenza "riduci movimento".</li></ul><h4>Limiti</h4><p>Alcune parti potrebbero non essere ancora pienamente accessibili. Se incontrate una difficoltà, segnalatela e la correggeremo rapidamente.</p><h4>Verifica di accessibilità</h4><p>{audit} Dichiarazione aggiornata il {updated}.</p><h4>Referente per l\'accessibilità</h4><p>Il referente per l\'accessibilità è contattabile solo via email, all\'indirizzo {email}. Rispondiamo il prima possibile.</p>',
+    terms: '<h3 id="legalTitle">Condizioni d\'uso</h3><p>L\'uso di tarshishtrade.com ("il sito") di Tarshish Trade ("la società") è soggetto a queste condizioni. Navigare nel sito significa accettarle.</p><h4>Solo informazione</h4><p>I contenuti del sito, compresa la verifica del percorso, sono informazioni generali di orientamento. Non sono consulenza legale, doganale o regolatoria, non costituiscono un\'offerta commerciale vincolante e non sostituiscono la valutazione del prodotto specifico. Ogni incarico è regolato da un accordo scritto separato.</p><h4>Proprietà intellettuale</h4><p>Il nome Tarshish Trade / תרשיש סחר, il marchio, i testi, il design e le immagini del sito appartengono alla società o ai rispettivi titolari. Non possono essere copiati, pubblicati o usati a fini commerciali senza autorizzazione scritta.</p><h4>Limitazione di responsabilità</h4><p>Il sito è fornito così com\'è. Nei limiti consentiti dalla legge, la società non risponde di danni diretti o indiretti derivanti dall\'affidamento sulle informazioni del sito, dalla sua interruzione o da malfunzionamenti. I link a siti esterni non sono sotto la nostra responsabilità.</p><h4>Legge e foro</h4><p>Queste condizioni sono regolate dalla legge israeliana; i tribunali competenti in Israele hanno giurisdizione esclusiva.</p><h4>Modifiche</h4><p>La società può aggiornare le condizioni di tanto in tanto; fa fede la versione pubblicata sul sito. Ultimo aggiornamento: {updated}.</p>'
+  }};
+  var AUDIT_TEXT = {
+    he: {planned: "בדיקת נגישות לאתר מתוכננת לתאריך {d}.", done: "בדיקת הנגישות האחרונה נערכה בתאריך {d}."},
+    en: {planned: "An accessibility audit of the site is scheduled for {d}.", done: "The last accessibility audit was carried out on {d}."},
+    ru: {planned: "Проверка доступности сайта запланирована на {d}.", done: "Последняя проверка доступности проведена {d}."},
+    it: {planned: "Una verifica di accessibilità del sito è programmata per il {d}.", done: "L'ultima verifica di accessibilità è stata eseguita il {d}."}
+  };
+  function fmtDate(iso){
+    var p = iso.split("-"), d = new Date(+p[0], +p[1] - 1, +p[2]);
+    var loc = {he: "he", en: "en-GB", ru: "ru", it: "it"}[current] || "en-GB";
+    try { return new Intl.DateTimeFormat(loc, {day: "numeric", month: "long", year: "numeric"}).format(d); } catch (e) { return iso; }
+  }
+  function fillLegal(html){
+    var mail = '<a dir="ltr" href="mailto:' + EMAIL + '">' + EMAIL + "</a>";
+    var a = AUDIT_TEXT[current] || AUDIT_TEXT.he;
+    var audit = (A11Y_AUDIT_DONE ? a.done : a.planned).replace("{d}", fmtDate(A11Y_AUDIT_DATE));
+    return html.split("{email}").join(mail).split("{updated}").join(fmtDate(LEGAL_UPDATED)).split("{audit}").join(audit);
+  }
+  var PAGES = {privacy:1, accessibility:1, terms:1};
+  var legalEl = document.getElementById("legal"), legalBody = document.getElementById("legalBody"), legalOpen = null, legalReturn = null;
+  function renderLegal(page){
+    legalBody.innerHTML = fillLegal((LEGAL[current] || LEGAL.he)[page]);
+    var links = legalEl.querySelectorAll(".legal-nav a");
+    for (var i = 0; i < links.length; i++) { var on = links[i].getAttribute("href") === "#" + page; if (on) links[i].setAttribute("aria-current", "page"); else links[i].removeAttribute("aria-current"); }
+  }
+  function openLegal(page){
+    if (!legalOpen) legalReturn = document.activeElement;
+    legalOpen = page; renderLegal(page);
+    legalEl.hidden = false; document.body.classList.add("modal-open"); legalEl.scrollTop = 0;
+    document.getElementById("legalClose").focus();
+  }
+  function closeLegal(){
+    if (!legalOpen) return; legalOpen = null; legalEl.hidden = true; document.body.classList.remove("modal-open");
+    if (location.hash && PAGES[location.hash.slice(1)]) history.replaceState(null, "", location.pathname + location.search);
+    if (legalReturn && legalReturn.focus) legalReturn.focus();
+  }
+  function routeHash(){ var h = location.hash.slice(1); if (PAGES[h]) openLegal(h); else closeLegal(); }
+  window.addEventListener("hashchange", routeHash);
+  document.getElementById("legalClose").addEventListener("click", function(){ history.replaceState(null, "", location.pathname + location.search); closeLegal(); });
+  legalEl.addEventListener("keydown", function(ev){
+    if (ev.key !== "Tab") return;
+    var f = legalEl.querySelectorAll("a[href],button"); if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (ev.shiftKey && document.activeElement === first) { ev.preventDefault(); last.focus(); }
+    else if (!ev.shiftKey && document.activeElement === last) { ev.preventDefault(); first.focus(); }
+  });
+  legalEl.addEventListener("click", function(ev){ if (ev.target === legalEl) { history.replaceState(null, "", location.pathname + location.search); closeLegal(); } });
+
+  // ---- accessibility widget ----
+  var A11Y = {fs:0, contrast:false, gray:false, links:false, font:false, nomotion:false};
+  try { var saved = JSON.parse(localStorage.getItem("tt-a11y") || "null"); if (saved) for (var k in A11Y) if (k in saved) A11Y[k] = saved[k]; } catch(e){}
+  var root = document.documentElement, panel = document.getElementById("a11yPanel"), abtn = document.getElementById("a11yBtn");
+  function applyA11y(){
+    root.classList.toggle("a11y-contrast", !!A11Y.contrast); root.classList.toggle("a11y-gray", !!A11Y.gray); root.classList.toggle("a11y-links", !!A11Y.links);
+    root.classList.toggle("a11y-font", !!A11Y.font); root.classList.toggle("a11y-nomotion", !!A11Y.nomotion);
+    var z = 1 + 0.1 * (A11Y.fs || 0); root.style.zoom = z === 1 ? "" : String(z); root.style.fontSize = "";
+    var bs = panel.querySelectorAll("[data-a11y]");
+    for (var i = 0; i < bs.length; i++) { var key = bs[i].getAttribute("data-a11y"); if (key in A11Y && typeof A11Y[key] === "boolean") bs[i].setAttribute("aria-pressed", A11Y[key] ? "true" : "false"); }
+    try { localStorage.setItem("tt-a11y", JSON.stringify(A11Y)); } catch(e){}
+  }
+  applyA11y();
+  function openPanel(){ panel.hidden = false; abtn.setAttribute("aria-expanded", "true"); panel.querySelector("button[data-a11y]").focus(); }
+  function closePanel(back){ panel.hidden = true; abtn.setAttribute("aria-expanded", "false"); if (back) abtn.focus(); }
+  abtn.addEventListener("click", function(){ if (panel.hidden) openPanel(); else closePanel(true); });
+  document.getElementById("a11yClose").addEventListener("click", function(){ closePanel(true); });
+  panel.addEventListener("click", function(ev){
+    var b = ev.target.closest && ev.target.closest("[data-a11y]"); if (!b) return;
+    var key = b.getAttribute("data-a11y");
+    if (key === "bigger") A11Y.fs = Math.min(4, (A11Y.fs || 0) + 1);
+    else if (key === "smaller") A11Y.fs = Math.max(-2, (A11Y.fs || 0) - 1);
+    else if (key === "reset") A11Y = {fs:0, contrast:false, gray:false, links:false, font:false, nomotion:false};
+    else A11Y[key] = !A11Y[key];
+    applyA11y();
+  });
+  document.addEventListener("keydown", function(ev){
+    if (ev.key !== "Escape") return;
+    if (legalOpen) { history.replaceState(null, "", location.pathname + location.search); closeLegal(); }
+    else if (!panel.hidden) closePanel(true);
+  });
+
+  // ---- cookie notice ----
+  var cookie = document.getElementById("cookie");
+  function renderCookie(){ document.getElementById("cookieText").textContent = T[current]["cookie.text"]; }
+  var seen = false; try { seen = localStorage.getItem("tt-cookie") === "1"; } catch(e){}
+  if (!seen) { renderCookie(); cookie.hidden = false; }
+  document.getElementById("cookieOk").addEventListener("click", function(){ cookie.hidden = true; try { localStorage.setItem("tt-cookie", "1"); } catch(e){} });
+
+  // ---- consent label + aria labels follow the language ----
+  function renderConsent(){
+    var d = T[current];
+    var html = d["lead.consent"].replace("{privacy}", '<a href="#privacy">' + d["lead.consent.privacy"] + "</a>").replace("{terms}", '<a href="#terms">' + d["lead.consent.terms"] + "</a>");
+    document.getElementById("consentLabel").innerHTML = html;
+    var ar = document.querySelectorAll("[data-i18n-aria]");
+    for (var i = 0; i < ar.length; i++) ar[i].setAttribute("aria-label", d[ar[i].getAttribute("data-i18n-aria")]);
+  }
+  renderConsent();
+  var _apply3 = apply;
+  apply = function(lang){ _apply3(lang); renderConsent(); if (!cookie.hidden) renderCookie(); if (legalOpen) renderLegal(legalOpen); };
+  routeHash();
+
+  // mobile menu
+  var mb = document.getElementById("menuBtn"), links = document.getElementById("links");
+  mb.addEventListener("click", function(){ var open = links.classList.toggle("open"); mb.setAttribute("aria-expanded", open ? "true" : "false"); });
+  links.addEventListener("click", function(ev){ if (ev.target.tagName === "A") { links.classList.remove("open"); mb.setAttribute("aria-expanded","false"); } });
+
+  // visitor type tabs
+  var type = "importer";
+  var tabs = document.querySelectorAll(".tab");
+  for (var t = 0; t < tabs.length; t++) tabs[t].addEventListener("click", function(){
+    type = this.getAttribute("data-type");
+    for (var u = 0; u < tabs.length; u++) tabs[u].setAttribute("aria-pressed", tabs[u] === this ? "true" : "false");
+  });
+
+  // WhatsApp link in the footer
+  var wa = document.getElementById("waLink");
+  if (wa) { wa.href = WHATSAPP_NUMBER ? "https://wa.me/" + WHATSAPP_NUMBER : "mailto:" + EMAIL; }
+
+  // form -> WhatsApp (or email) message
+  document.getElementById("leadForm").addEventListener("submit", function(ev){
+    ev.preventDefault();
+    var d = T[current], msg = document.getElementById("formMsg");
+    var f = ev.target, v = function(n){ return (f.elements[n].value || "").trim(); };
+    if (!f.elements.consent.checked) { msg.textContent = d["lead.consent.missing"]; f.elements.consent.focus(); return; }
+    if (!v("name") || !v("contact")) { msg.textContent = d["lead.missing"]; f.elements[!v("name") ? "name" : "contact"].focus(); return; }
+    var who = type === "importer" ? d["lead.tab1"] : d["lead.tab2"];
+    var lines = ["Tarshish Trade: " + d["lead.title"], who, d["lead.name"] + ": " + v("name"), d["lead.company"] + ": " + v("company"),
+                 d["lead.contact"] + ": " + v("contact"), d["lead.product"] + ": " + v("product"), d["lead.notes"] + ": " + v("notes")];
+    var body = lines.join("\n");
+    var url = WHATSAPP_NUMBER ? "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(body)
+                              : "mailto:" + EMAIL + "?subject=" + encodeURIComponent(lines[0]) + "&body=" + encodeURIComponent(body);
+    window.open(url, "_blank", "noopener");
+    msg.textContent = d["lead.sent"];
+  });
+})();
+</script>
+</body>
+</html>
